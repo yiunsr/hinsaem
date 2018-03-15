@@ -1,0 +1,10 @@
+{
+    "res_dict_01" : "res\\morpheme.tsv",
+    "res_dict_j" : "res\\J.tsv",
+    "res_dict_e" : "res\\E.tsv",
+    "res_dict_nng" : "res\\NNG.tsv",
+    "res_dict_nnp" : "res\\NNP.tsv",
+    "res_dict_n_" : "res\\N_.tsv",
+    "res_dict_nr" : "res\\NR.tsv",
+    "multiprocess_count" : 2
+}

@@ -1,0 +1,346 @@
+word	pos	tag
+가량	NND	
+가지	NNU	NBH
+간	NND	
+개	NNU	NBH|NB1
+개국	NNU	NB1
+개년	NNU	NB1
+개대	NNU	NB1
+개사	NNU	NB1
+개소	NNU	NB1
+개월	NNU	NB1
+개항	NNU	NB1
+갤런	NNU	NB1
+걔	NP	
+거	NND	
+거	NP	
+거기	NP	
+거리	NNU	NB1|NBH
+거시기	NP	
+건	NNU	NBH
+것	NND	
+겨를	NND	
+격	NND	
+결	NND	
+겸	NND	
+고것	NP	
+고놈	NP	
+공	NND	
+공	NP	
+관	NNU	NB1
+광년	NNU	NB1
+교	NND	
+교시	NNU	NB1
+구	NND	
+군	NND	
+군데	NNU	NBH
+굴덴	NNU	NB1
+권	NND	
+귀하	NP	
+그	NP	
+그거	NP	
+그것	NP	
+그곳	NP	
+그기	NP	
+그녀	NP	
+그년	NP	
+그놈	NP	
+그대	NP	
+그램	NNU	NB1
+그루	NNU	NBH
+그분	NP	
+그이	NP	
+그자	NP	
+그쪽	NP	
+그치	NP	
+그편	NP	
+근	NNU	NBH
+기	NNU	NB1
+기가	NNU	NB1
+기가바이트	NNU	NB1
+기거	NP	
+길	NNU	NB1
+김	NND	
+꺼	NND	
+껀	NND	
+나	NP	
+나름	NND	
+나위	NND	
+남짓	NND	
+내	NND	
+내	NP	
+냥	NNU	NBH
+너	NP	
+너거	NP	
+너희	NP	
+네	NP	
+네놈	NP	
+녀석	NND	
+년	NNU	NB1
+년대	NND	
+년도	NND	
+년차	NND	
+녘	NND	
+놈	NND	
+누	NP	
+누구	NP	
+누구누구	NP	
+뉘	NP	
+느	NP	
+느이	NP	
+늬	NP	
+니	NP	
+닢	NNU	NBH
+달라	NND	
+달러	NND	
+당신	NP	
+대	NNU	NBH
+대로	NND	
+대루	NND	
+댁	NP	
+데	NND	
+데나리온	NNU	NB1
+데시벨	NNU	NB1
+도	NND	
+돈	NNU	NBH
+돈쭝	NNU	NBH
+동	NND	
+되	NNU	NBH
+두	NNU	NBH
+두락	NNU	NB1
+둥	NND	
+드라크마	NNU	NB1
+듯	NND	
+듯이	NND	
+등	NND	
+등등	NND	
+등성	NNU	NB1
+등지	NND	
+디	NND	
+디옵터	NNU	NB1
+따름	NND	
+따우	NND	
+따위	NND	
+딴	NND	
+때문	NND	
+땜	NND	
+량	NNU	NBH
+루블	NNU	NB1|NBH
+루피	NNU	NB1
+루피아	NNU	NB1
+리	NNU	NB1
+리터	NNU	NB1
+마당	NNU	NB1
+마력	NNU	NB1
+마련	NND	
+마르크	NNU	NB1
+마리	NNU	NBH
+마일	NNU	NB1
+마장	NNU	NB1|NBH
+마지기	NNU	NBH
+만	NND	
+만치	NND	
+만큼	NND	
+말	NNU	NBH
+망정	NND	
+매	NNU	NB1
+머	NP	
+메가	NNU	NB1
+메가바이트	NNU	NB1
+명	NNU	NBH
+모	NP	
+모금	NNU	NBH
+모모	NP	
+무렵	NND	
+무시기	NP	
+무어	NP	
+무엇	NP	
+문	NNU	NBH|NB1
+뭇	NNU	NBH
+뭐	NP	
+뭣	NP	
+미리	NNU	NB1
+미터	NNU	NB1
+밀리	NNU	NB1
+밀리미터	NNU	NB1
+바	NND	
+바람	NND	
+바이트	NNU	NB1
+바퀴	NNU	NBH
+박	NND	
+발	NNU	NBH
+발짝	NNU	NBH
+방	NNU	NBH
+배럴	NNU	NB1
+번	NNU	NBH
+벌	NNU	NBH
+범	NND	
+법	NND	
+보	NNU	NB1
+부	NNU	NB1
+분	NNU	NBH
+불	NND	
+비트	NNU	NB1
+뻔	NND	
+뼘	NNU	NBH
+뿐	NND	
+살	NNU	NBH
+새	NND	
+석	NNU	NBH
+선	NND	
+섬	NNU	NBH
+성	NND	
+세	NNU	NB1
+센트	NND	
+센티미터	NNU	NB1
+셈	NND	
+수	NNU	NBH
+술	NNU	NBH
+시	NNU	NBH
+식	NND	
+실	NNU	NB1
+씨	NND	
+아름	NNU	NBH
+아무	NP	
+아무개	NP	
+양	NND	
+얘	NP	
+어데	NP	
+어디	NP	
+언제	NP	
+에이커	NNU	NB1
+엔	NNU	NB1
+여	NP	
+여기	NP	
+여러분	NP	
+예	NP	
+온스	NNU	NB1
+옹	NND	
+외	NND	
+요것	NP	
+요기	NP	
+요년	NP	
+요노옴	NP	
+요놈	NP	
+우리	NP	
+울	NP	
+울리	NP	
+움큼	NNU	NBH
+웅큼	NNU	NBH
+원	NNU	NB1
+원권	NND	
+월	NNU	NB1
+위안	NNU	NB1
+이	NND	
+이	NP	
+이거	NP	
+이것	NP	
+이곳	NP	
+이기	NP	
+이년	NP	
+이놈	NP	
+이눔	NP	
+이때	NP	
+이래	NND	
+이분	NP	
+이이	NP	
+이쪽	NP	
+인방	NNU	NB1
+인승	NNU	NB1
+인조	NNU	NB1
+인치	NNU	NB1
+일	NND	
+자	NNU	NBH
+자기	NP	
+자네	NP	
+장	NNU	NBH
+쟤	NP	
+저	NP	
+저거	NP	
+저것	NP	
+저곳	NP	
+저그	NP	
+저기	NP	
+저년	NP	
+저놈	NP	
+저분	NP	
+저쪽	NP	
+저편	NP	
+저희	NP	
+점	NNU	NBH
+접	NNU	NBH
+정보	NNU	NB1
+제	NND	
+제	NP	
+제군	NP	
+조	NNU	NB1
+조년	NP	
+족	NNU	NBH
+족족	NND	
+주	NNU	NB1|NBH
+주기	NNU	NB1|NBH
+주년	NNU	NB1
+주일	NNU	NB1|NBH
+줄	NNU	NBH
+중	NND	
+즈음	NND	
+즘	NND	
+지	NND	
+지	NP	
+지경	NND	
+짐	NP	
+집	NNU	NBH
+짝	NNU	NBH
+쩍	NND	
+쪽	NNU	NBH
+쯤	NND	
+차	NNU	NB1
+차전	NNU	NB1
+참	NND	
+채	NNU	NBH
+척	NNU	NBH
+첩	NNU	NBH
+체	NND	
+초	NNU	NB1
+촉	NNU	NB1
+촌	NNU	NB1
+측	NND	
+치	NNU	NBH
+켠	NNU	NBH
+켤레	NNU	NBH
+큐핏	NNU	NB1
+크로나	NNU	NB1
+키로	NNU	NB1
+킬로	NNU	NB1
+킬로그램	NNU	NB1
+킬로미터	NNU	NB1
+킬로바이트	NNU	NB1
+타스	NNU	NB1|NBH
+탕	NNU	NBH
+턱	NNU	NBH
+톤	NNU	NB1
+톨	NNU	NBH
+통	NNU	NBH
+투	NND	
+파운드	NNU	NB1
+판	NNU	NBH
+퍼센트	NNU	NB1
+페소	NNU	NB1
+편	NNU	NBH
+평	NNU	NBH|NB1
+평방미터	NNU	NB1
+폭	NNU	NBH
+푼	NNU	NBH
+품	NNU	NB1
+프랑	NNU	NB1
+프로	NNU	NB1
+피트	NNU	NB1
+필	NNU	NBH
+할	NNU	NB1
+해리	NNU	NB1
+행	NNU	NB1
+형씨	NP	
+호	NNU	NB1
+홉	NNU	NBH
+회	NNU	NB1|NBH
+회전	NNU	NB1

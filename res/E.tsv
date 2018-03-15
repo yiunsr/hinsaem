@@ -1,0 +1,1495 @@
+word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
+가	EF		NUL				냐/EF		*/VCP|*VCN
+간디	EC		NUL			방언	관데/EC		
+거나	EC		NUL			선택			
+거나	EC		NUL						
+거늘	EC		NUL						
+거늘	EC		NUL			사실&의문&인정			
+거니	EC		NUL						
+거니	EC		NUL						
+거니	EF		NUL	해라체					
+거니와	EC		NUL			예스러움	으려니와/EC		
+거니와	EC		NUL			예스러움	으려니와/EC		
+거던	EF		NUL	해체		비표준	거든/EF		
+거드면	EC		NUL			예스러움			
+거든	EC		NUL						
+거든	EC		NUL						
+거든	EF		NUL	해체					
+거든	EF		NUL						
+거들랑	EC		NUL						
+거들랑	EF		NUL	해체		사실			
+거라	EF		NUL	해라체		명령	어라/EF		*/VV
+건	EC		NUL				거나/EC		
+건	EC		NUL				거나/EC		
+건	EF		NUL				거든/EF		
+건대	EC		NUL						*/VV
+건대	EC		NUL			예스러움&비표준	관데/EC		
+건마는	EC		NUL			실망		건만/EC	
+건만	EC		NUL			실망	건마는/EC		
+걸랑	EC		NUL				거들랑/EC		
+걸랑	EF		NUL				거들랑/EF		
+것다	EF		NUL	해라체		옛스러움&(추측|다짐)			
+것마는	EC		NUL			실망&비표준	건마는/EC		
+겄	EP		NUL						
+게	EC		NUL						
+게	EF		NUL	해체					
+게	EP		NUL			방언			
+게겐	EF		NUL			방언	자꾸나/EF		
+게끔	EC		NUL			강조	게/EC		*/VV|*/EP
+게나	EF		NUL						*/VV|*/EP
+게도	EC		NUL						
+게르	EC		NUL			방언	게/EC		
+게르	EF		NUL			방언	게/EF		
+게시리	EC		NUL			강조&비표준	게/EC		*/VV|*/EP
+겐	EF		NUL			방언	자고/EF		
+겠	EP		NUL		미래				
+겠	EP		NUL						
+겠	EP		NUL						
+겠	EP		NUL						
+겠	EP		NUL						
+고	EC		NUL						
+고	EC		NUL				고서/EC		*/VV|*/EP
+고	EC		NUL						*/VV|*/EP
+고	EC		NUL						
+고	EC		NUL			강조			*/VA
+고	EC		NUL						
+고	EF		NUL	해체					
+고	EF		NUL	해체		명령			*/VV
+고는	EC		NUL						*/VV
+고는	EC		NUL						
+고도	EC		NUL						
+고말고	EF		NUL			강조			
+고서	EC		NUL			강조			
+고서	EC		NUL						
+고야	EC		NUL			강조			*/VV
+고자	EC		NUL						
+고장	EC		NUL			방언	고자/EC		
+고저	EC		NUL			비표준	고자/EC		
+곤	EC		NUL				고는/EC		
+관데	EC		NUL			예스러움			
+구나	EF		NUL	해라체					
+구래	EF		NUL			방언	구려/EF		
+구려	EF		NUL	하오체		감탄			
+구려	EF		NUL	하오체					
+구로	EC		NUL			방언	게/EC		
+구로	EF		NUL			방언	게/EF		
+구료	EF		NUL	하오체		비표준&감탄	구려/EC		
+구료	EF		NUL	하오체		비표준	구려/EF		
+구마는	EC		NUL			방언	건마는/EC		
+구만	EF		NUL			비표준	구먼/EF		
+구먼	EF		NUL						
+구면	EF		NUL			비표준	구먼/EF		
+군	EF		NUL	해체		감탄			*/VCP|*VCN|*VA
+군	EF		NUL				구나/EF		
+그러	EC		NUL			방언	도록/EC		
+그레	EC		NUL			방언	기에/EC		
+그로	EC		NUL			방언	게끔/EC		
+기	ETN		NUL						
+기나	EC		NUL			방언	거나/EC		
+기로	EC		NUL						
+기로	EC		NUL						
+기로니	EC		NUL			강조	기로/EC		
+기로서	EC		NUL			강조	기로/EC		
+기로서니	EC		NUL			구어&강조	기로서/EC	기로/EC	
+기로선들	EC		NUL			강조	기로서/EC		
+기에	EC		NUL						
+기요	EF		NUL	해체		청유			
+길래	EC		NUL			구어			
+꺼니	EC		NUL			방언	니까/EC		
+꺼니	EF		NUL			방언	니까/EF		
+꺼마	EF		NUL			방언	을게/EF		
+께	EF		VO|LQ	해체		구어&비표준	을게/EF		*/VV
+꾸마	EF		NUL			방언	마/EF		
+ㄴ	EP		VO|LQ						*/VV|*/EP
+ㄴ	EF		NUL			명령			*오/VV
+ㄴ	ETM		VO|LQ		과거				*/VV|*/EP
+ㄴ	ETM		VO|LQ						*/VV|*/EP
+ㄴ	ETM		VO|LQ						
+ㄴ가	EF		VO|LQ	하게체			는가/EF		
+ㄴ가	EF		VO|LQ				는가/EF		
+ㄴ감	EF		VO|LQ				는감/EF		
+ㄴ강	EF		VO			방언	는가/EF		
+ㄴ걸	EF		VO|LQ	해체		구어	는걸/EF		*/VV|*/EP
+ㄴ걸	EF		VO|LQ	해체		구어	는걸/EF		
+ㄴ고	EF		VO|LQ	해라체		예스러움	는고/EF		
+ㄴ고	EF		VO|LQ	해라체		예스러움	는고/EF		
+ㄴ교	EF		VO			방언	는가요/EF		
+ㄴ께네	EF		VO			방언	으니까/EF		
+ㄴ나	EF		VO			방언	는가/EF		
+ㄴ나	EF		VO			방언	너라/EF		
+ㄴ다	EF		VO|LQ	해라체			는다/EF		*/VV|*/EP
+ㄴ다	EF		VO|LQ	해라체			는다/EF		*/VV|*/EP
+ㄴ다고	EC		VO|LQ				는다고/EC		*/VV|*/EP
+ㄴ다고	EC		VO|LQ				는다고/EC		*/VV|*/EP
+ㄴ다고	EF		VO|LQ	해체		강조	는다고/EF		*/VV|*/EP
+ㄴ다고	EF		VO|LQ	해체			는다고/EF		*/VV|*/EP
+ㄴ다고	EF		VO|LQ	해체			는다고/EF		*/VV|*/EP
+ㄴ다나	EF		VO|LQ			구어	는다나/EF		*/VV|*/EP
+ㄴ다네	EF		VO|LQ	하게체			는다네/EF		*/VV|*/EP
+ㄴ다느니	EC		VO|LQ				는다느니/EC		*/VV|*/EP
+ㄴ다니	EF		VO|LQ	해체			는다니/EF		*/VV|*/EP
+ㄴ다니	EF		VO|LQ	해라체			는다니/EF		*/VV|*/EP
+ㄴ다니까	EF		VO	해체		확인	는다니까/EF		
+ㄴ다더라	EF		VO	해라체			는다더라/EF		*/VV
+ㄴ다마는	EC		VO|LQ				는다마는/EC		*/VV|*/EP
+ㄴ다만	EC		VO				는다만/EC		
+ㄴ다며	EC		VO				는다면서/EC		
+ㄴ다면	EC		VO|LQ				는다면/EC		*/VV|*/EP
+ㄴ다면서	EF		VO	해체		구어&확인	는다면/EF		
+ㄴ다손	EC		VO|LQ				는다손/EC		*/VV|*/EP
+ㄴ다오	EF		VO	하오체			는다오/EF		
+ㄴ다이	EF		VO			방언	는다/EF		
+ㄴ다지	EF		VO	해체		확인	는다지/EF		
+ㄴ단다	EF		VO|LQ	해라체			는단다/EF		*/VV|*/EP
+ㄴ담	EF		VO|LQ	해라체		구어	는담/EF		*/VV|*/EP
+ㄴ답니까	EF		VO	합쇼체			는답니까/EF		
+ㄴ답니다	EF		VO	합쇼체			는답니다/EF		
+ㄴ답시고	EC		VO|LQ				는답시고/EC		*/VV|*/EP
+ㄴ대	EF		VO|LQ	해체			는대/EF		*/VV|*/EP
+ㄴ대니	EC		VO			방언	는다니/EC		
+ㄴ대요	EF		VO	해요체		구어	는대요/EF		
+ㄴ댄다	EF		VO|LQ	해라체		비표준	는댄다/EF		*/VV|*/EP
+ㄴ데	EC		VO|LQ				는데/EC		
+ㄴ데	EF		VO|LQ	해체		감탄	는데/EF		
+ㄴ데	EF		VO|LQ				는데/EF		
+ㄴ뎁쇼	EF		VO	합쇼체	현재		는뎁쇼/EF		*/VCP|*VCN|*VA|*/EP
+ㄴ들	EC		VO|LQ				는들/EC		
+ㄴ디	EC		VO			방언	는데/EC		
+ㄴ디	EF		VO			방언	는데/EF		
+ㄴ바	EC		VO|LQ		과거	문어	는바/EC		*/VV|*/EP
+ㄴ바	EC		VO|LQ			문어	는바/EC		
+ㄴ즉	EC		VO|LQ			예스러움	는즉/EC		
+ㄴ즉슨	EC		VO|LQ			강조&예스러움	는즉슨/EC		
+ㄴ지	EC		VO|LQ				는지/EC		
+ㄴ지	EF		VO|LQ	해체			는지/EF		
+ㄴ지고	EF		VO|LQ	해라체		(강조|감탄)	는지고/EF		
+ㄴ지고	EF		VO	해라체		(강조|감탄)	는지고/EF		*/VV
+ㄴ지라	EC		VO|LQ			예스러움	는지라/EC		
+ㄴ지라	EC		VO|LQ				는지라/EC		*/VV|*/EP
+나	EC		VO|LQ				으나/EC		
+나	EC		VO|LQ			선택			
+나	EC		VO|LQ			강조			
+나	EF		NUL	하게체					*/VV
+나	EF		NUL	해체					*/VV|*/EP
+나	EF		NUL	해라체					
+나	EF		VO			방언	너라/EF		
+나	EF		NUL	해라체					
+나니	EC		NUL						*/VV|*/EP
+나니	EC		NUL						*/VV|*/EP
+나따나	EC		NUL			방언	나마/EC		
+나따나	EC		NUL			방언	더라도/EC		
+나마	EC		VO|LQ				으나마/EC		
+나새나	EF		NUL			구어			
+나이까	EF		NUL	합쇼체		예스러움			
+나이다	EF		NUL	합쇼체		예스러움			
+난	EC		NUL			방언	니/EC		
+난	EF		NUL			방언	니까/EF		
+남	EF		NUL	해라체		구어			*/VV|*/EP
+남동	EC		NUL			방언	나마/EC		
+냐	EF		NUL	해라체		구어	느냐/EF		
+냐고	EF		NUL	해체			느냐고/EF		
+냐고	EF		NUL	해체			느냐고/EF		
+냐고	EC		NUL			인용&해라&옛스러움	느냐고/EC		
+냰	EF		NUL			인용	냐고/EF		
+너라	EF		NUL	해라체		예스러움&명령	어라/EF		*오/VV
+네	EF		NUL	하게체					
+네	EF		NUL	해체		감탄			
+네	EC		NUL			인용	니/EC		
+네	EF		NUL			인용	니/EF		
+노	EF		NUL	해라체					
+노니	EC		NUL			예스러움&문어			*/VV|*/EP
+노니	EC		NUL			예스러움&문어			*/VV|*/EP
+노라	EF		NUL	해라체					*/VV|*/EP
+노라고	EC		NUL						*/VV
+노라니	EC		NUL			예스러움			
+노라니까	EC		NUL			옛스러움&강조	노라니/EC		
+노라면	EC		NUL			예스러움			
+뇨	EF		NUL	해라체		예스러움	느뇨/EF		*/VCP|*VCN|*VA|*/EP
+누	EF		NUL	해라체					*/VV|*/EP
+누나	EF		NUL		현재	예스러움	는구나/EF		*/VV|*/EP
+누라구	EC		NUL			방언	노라고/EC		
+누만	EF		NUL			비표준			*/VV|*/EP
+누먼	EF		NUL			감탄	는구먼/EF		*/VV|*/EP
+느냐	EF		NUL	해라체		예스러움			
+느냐고	EF		NUL	해체					
+느냐고	EF		NUL	해체					
+느뇨	EF		NUL	해라체		예스러움			
+느니	EC		NUL						
+느니	EC		NUL						
+느니	EF		NUL	하게체					
+느니라	EF		NUL	해라체		예스러움			
+느니만	EC		NUL						
+느니만치	EC		NUL						
+느니만큼	EC		NUL					느니만큼/EC	
+느라	EC		NUL					느라고/EC	*/VV|*/EP
+느라고	EC		NUL						*/VV|*/EP
+느라고	EC		NUL			예스러움&비표준	노라고/EC		*/VV|*/EP
+느라니	EC		NUL			예스러움&비표준	노라니/EC		
+느라니까	EC		NUL			방언	노라니까/EC		
+느라니까	EF		NUL			방언	노라니까/EF		
+느라면	EC		NUL			예스러움&비표준	노라면/EC		
+느마	EC		NUL			방언	는구먼/EC		
+느마	EF		NUL			방언	는구먼/EF		
+느매	EF		NUL			방언	는가/EF		
+는	EP		LQ|FS		현재				*/VV|*/EP
+는	ETM		NUL		현재				
+는가	EF		NUL	하게체	현재				
+는가	EF		NUL						
+는감	EF		NUL	하게체		구어			
+는강	EF		NUL			방언	는고/EF		
+는걸	EF		NUL	해체	현재	구어			
+는고	EF		NUL	해라체	현재				
+는고	EF		NUL	해라체					
+는공	EF		NUL			방언	는고/EF		
+는교	EC		NUL			방언	ㅂ니까/EC		
+는교	EF		NUL			방언	ㅂ니까/EF		
+는구나	EF		NUL	해라체		감탄			*/VV|*/EP
+는구려	EF		NUL	하오체		감탄			*/VV|*/EP
+는구료	EF		NUL	하오체		비표준&감탄	는구려/EF		*/VV|*/EP
+는구마	EC		NUL			방언	는구먼/EC		
+는구마	EF		NUL			방언	는구먼/EF		
+는구만	EC		NUL			방언	는구먼/EC		
+는구만	EF		NUL			방언	는구만/EF		
+는구매	EC		NUL			방언	는구먼/EC		
+는구매	EF		NUL			방언	는구먼/EF		
+는구먼	EC		NUL						
+는구먼	EF		NUL						
+는구면	EC		NUL			비표준	는구먼/EC		
+는구면	EF		NUL			비표준	는구먼/EF		
+는군	EF		NUL	해체		감탄	는구먼/EF		*/VV|*/EP
+는군	EF		NUL				는구나/EF		*/VV|*/EP
+는궈니	EC		NUL			비표준	는과니/EC		
+는다	EF		LQ|FS	해라체					*/VV
+는다	EF		LQ|FS	해라체					*/VV
+는다고	EC		VO|LQ						*/VV
+는다고	EC		VO|LQ						*/VV
+는다고	EF		LQ|FS	해체		강조			*/VV
+는다고	EF		LQ|FS	해체					*/VV
+는다고	EF		LQ|FS	해체					*/VV
+는다꼬	EC		NUL			방언	는다고/EC		
+는다꼬	EF		NUL			방언	는다고/EF		
+는다나	EF		LQ|FS			구어			*/VV
+는다네	EF		LQ|FS	하게체					*/VV
+는다느니	EC		LQ|FS						*/VV
+는다니	EF		LQ|FS	해체					*/VV
+는다니	EF		LQ|FS	해라체					*/VV
+는다니까	EF		LQ|FS	해체		확인			*/VV
+는다더라	EF		LQ|FS	해라체					*/VV
+는다마는	EC		LQ|FS						*/VV
+는다만	EC		NUL				는다마는/EC		
+는다며	EC		NUL				는다면서/EC		
+는다며	EF		NUL				는다면서/EF		
+는다면	EC		LQ|FS						*/VV
+는다면서	EF		NUL	해체		확인			
+는다손	EC		LQ|FS						*/VV
+는다오	EF		NUL	하오체					
+는다이	EF		NUL			방언	는다/EF		
+는다지	EF		NUL	해체		확인			
+는단다	EF		LQ|FS	해라체					*/VV
+는담	EF		LQ|FS	해라체		구어			*/VV
+는답니까	EF		NUL	합쇼체					
+는답니다	EF		NUL	합쇼체					
+는답시고	EC		LQ|FS						*/VV
+는대	EF		LQ|FS	해체					*/VV
+는대요	EF		NUL	해요체					
+는댄다	EF		NUL	해라체		비표준	는단다/EF		
+는데	EC		NUL						
+는데	EF		NUL	해체		감탄			
+는데	EF		NUL						
+는뎁쇼	EF		NUL	합쇼체	현재				
+는도다	EF		NUL	해라체		예스러움&감탄			
+는디	EC		NUL			방언	는데/EC		
+는디	EF		NUL			방언	는데/EF		
+는디	EC		NUL			방언	는지/EC		
+는디	EF		NUL			방언	는지/EF		
+는맥세	EC		NUL			방언	자마자/EC		
+는바	EC		NUL			문어			
+는지	EC		NUL						
+는지	EF		NUL	해체					
+는지고	EF		NUL	해라체	현재	(강조|감탄)&예스러움			
+는지라	EC		NUL		현재	예스러움			
+늬라고	EC		NUL			비표준	느라고/EC		
+니	EC		VO|LQ						
+니	EC		VO|LQ						
+니	EC		VO|LQ						*/VCP|*/VCN|*/VA
+니	EF		VO|LQ	하게체				을새/EF	
+니	EF		NUL	해라체					
+니	EC		NUL			방언	게/EC		
+니	EF		NUL			방언	게/EF		
+니까	EC		VO|LQ			강조	으니까/EC		
+니까	EF		VO|LQ			강조	으니까/EF		
+니까나	EF		NUL			방언	니까/EF		
+니까느루	EC		VO|LQ			강조&비표준	니까/EC		
+니까느루	EF		VO|LQ			강조&비표준	니까/EF		
+니까는	EC		VO|LQ			강조	으니까/EC		
+니까는	EF		VO|LQ			강조	으니까/EF		
+니까니	EC		NUL			방언	니까/EC		
+니까니	EF		NUL			방언	니까/EF		
+니깐	EC		VO|LQ				으니까/EC		
+니꺼니	EC		NUL			방언	니까/EC		
+니꺼니	EF		NUL			방언	니까/EF		
+니께	EC		NUL			방언	니까/EC		
+니께	EF		NUL			방언	니까/EF		
+니께니	EC		NUL			방언	니까/EC		
+니께니	EF		NUL			방언	니까/EF		
+니껴	EF		NUL			방언	ㅂ니까/EF		
+니끼니	EC		NUL			방언	니까/EC		
+니끼니	EF		NUL			방언	니까/EF		
+니라	EF		VO|LQ	해라체		예스러움			
+니라	EF		NUL			방언	너라/EF		
+니만치	EC		VO|LQ				으니만치/EC		
+니만큼	EC		VO|LQ				으니만큼/EC	으니만치/EC	
+니이껴	EF		NUL			방언	습니까/EF		
+닝까	EC		NUL			방언	니까/EC		
+닝까	EF		NUL			방언	니까/EF		
+다	EF		NUL	해라체			는다/EF		*/VCP|*/VCN|*/VA
+다	EF		NUL		과거				*/VV|*/EP
+다	EF		NUL						
+다	EC		NUL				다가/EC		
+다	EF		NUL				다가/EF		
+다	EC		NUL				다가/EC		
+다	EF		NUL				다가/EF		
+다	EC		NUL				다가/EC		
+다	EF		NUL				다가/EF		
+다가	EC		NUL						
+다가	EC		NUL						
+다가	EC		NUL						
+다가	EC		NUL		진행				
+다가는	EC		NUL						
+다가는	EC		NUL			강조			
+다간	EC		NUL				다가는/EC		
+다간	EC		NUL				다가는/EC		
+다고	EC		NUL						*/VCP|*/VCN|*/VA
+다고	EC		NUL						*/VCP|*/VCN|*/VA
+다고	EF		NUL	해체		강조			*/VCP|*/VCN|*/VA
+다고	EF		NUL	해체					*/VCP|*/VCN|*/VA
+다고	EF		NUL	해체					*/VCP|*/VCN|*/VA
+다나	EF		NUL			구어			*/VCP|*/VCN|*/VA
+다네	EF		NUL	하게체					*/VCP|*/VCN|*/VA
+다느니	EC		NUL						*/VCP|*/VCN|*/VA
+다니	EF		NUL	해체					
+다니	EF		NUL	해라체					*/VCP|*/VCN|*/VA
+다니까	EF		NUL	해체		확인			*/VCP|*/VCN|*/VA
+다더라	EF		NUL	해라체					*/VCP|*/VCN|*/VA
+다라	EF		NUL			방언	더라/EF		
+다라니	EC		NUL			방언	기에/EC		
+다마는	EC		NUL						*/VCP|*/VCN|*/VA
+다마다	EF		NUL			강조		고말고/EF	
+다만	EC		NUL				다만/EC		
+다며	EF		NUL				다면서/EF		
+다면	EC		NUL						*/VCP|*/VCN|*/VA
+다면서	EF		NUL	해체		확인			*/VCP|*/VCN|*/VA
+다문	EC		NUL			방언	다면/EC		
+다문	EF		NUL			방언	다면/EF		
+다손	EC		NUL						*/VCP|*/VCN|*/VA
+다스피	EC		NUL			방언	다시피/EC		
+다시피	EC		NUL						*/VCP|*/VCN|*/VA
+다시피	EC		NUL						
+다오	EF		NUL	하오체					
+다요	EF		NUL			방언	대요/EF		
+다우	EF		NUL			방언	대요/EF		
+다우	EF		NUL			방언	다오/EF		
+다지	EF		NUL	해체		확인			*/VCP|*/VCN|*/VA
+단	EC		NUL				다가는/EC		
+단	EC		NUL				다가는/EC		
+단다	EF		NUL	해라체					*/VCP|*/VCN|*/VA
+담	EF		NUL	해라체		구어			*/VCP|*/VCN|*/VA
+답니까	EF		NUL	합쇼체					
+답니다	EF		NUL	합쇼체					
+답시고	EC		NUL						*/VCP|*/VCN|*/VA
+당께	EF		NUL			방언	다니까/EF		
+당께로	EF		NUL			방언	다니까/EF		
+대	EF		NUL	해체					*/VCP|*/VCN|*/VA
+대끼	EC		NUL			방언	듯이/EC		
+대요	EF		NUL	해요체		구어			*/VCP|*/VCN|*/VA
+댄다	EF		NUL	해라체		비표준	단다/EF		*/VCP|*/VCN|*/VA
+더	EP		NUL		회상				
+더거	EC		NUL			방언	다가/EC		
+더구나	EF		NUL	해라체	회상	감탄			
+더구려	EF		NUL	하오체	회상	감탄			
+더구료	EF		NUL	하오체	회상	비표준&감탄	더구려/EF		
+더구만	EF		NUL			비표준	더거먼/EF		
+더구먼	EF		NUL				더거먼/EF		
+더구면	EF		NUL			비표준	더거먼/EF		
+더군	EF		NUL	해체	회상				
+더군	EF		NUL				더구나/EF		
+더냐	EF		NUL	해라체	과거				
+더뇨	EF		NUL	해라체		예스러움			
+더니	EC		NUL		과거				
+더니	EC		NUL		과거				
+더니	EC		NUL		과거				
+더니	EF		NUL	해라체	과거	예스러움&구어			
+더니	EF		NUL		과거회상				
+더니라	EF		NUL	해라체	회상	예스러움			
+더니마는	EC		NUL		과거				
+더니마는	EC		NUL		과거				
+더니마는	EC		NUL		과거				
+더니만	EC		NUL				더니마는/EC		
+더니만	EC		NUL				더니마는/EC		
+더니만	EC		NUL				더니마는/EC		
+더니이까	EF		NUL	합쇼체		예스러움			
+더니이다	EF		NUL	합쇼체		예스러움			
+더라	EF		NUL	해라체					
+더라나	EF		NUL			구어			
+더라니	EF		NUL	해체	과거				
+더라니까	EF		NUL	해체		확인			
+더라도	EC		NUL						
+더라며	EF		NUL				더라면서/EF		
+더라면	EC		NUL			가정			었/EP
+더라면서	EF		NUL	해라체	과거	확인			
+더라손	EC		NUL		과거				
+더라지	EF		NUL	해체	회상	확인			
+더람	EF		NUL	해라체		구어			
+더만	EC		NUL			방언	더구먼/EC		
+다문	EF		NUL			방언	다면/EF		
+더이까	EF		NUL	합쇼체		예스러움			
+더이다	EF		NUL	합쇼체		예스러움			
+던	ETM		NUL		미완				
+던	EF		NUL	해라체	과거				
+던가	EF		NUL	하게체	과거				
+던가	EF		NUL		과거				
+던감	EF		NUL		과거				
+던걸	EF		NUL	해체	과거	구어			
+던고	EF		NUL	해라체	과거				
+던고	EF		NUL	해라체	과거				
+던데	EC		NUL		회상				
+던데	EF		NUL	해체	과거	감탄			
+던들	EC		NUL						었/EP
+던디	EC		NUL			방언	든지/EC		
+던바	EC		NUL		과거	문어			
+던지	EC		NUL						
+데	EF		NUL	해체	회상				
+데끼	EC		NUL			방언	듯이/EC		
+데요	EF		NUL	해요체|하오체	회상	구어			
+덴	EC		NUL			방언	다고/EC		
+덴	EF		NUL			방언	다고/EF		
+도다	EF		NUL	해라체		예스러움&감탄			
+도록	EC		NUL						
+도록	EF		NUL	해라체		명령			
+되	EC		NUL			예스러움			
+되	EC		NUL						
+되	EC		NUL						
+두구나	EF		NUL			방언	더구나/EF		
+두나	EF		NUL			방언	더구나/EF		
+두락	EC		NUL			방언	도록/EC		
+두락	EF		NUL			방언	도록/EF		
+두마는	EC		NUL			방언	더구먼/EC		
+두마는	EF		NUL			방언	더구먼/EF		
+둔	EF		NUL			방언	더군/EF		
+뒈	EC		NUL			방언	되/EC		
+드구나	EF		NUL	해라체	회상	비표준&감탄	더구나/EF		
+드구료	EF		NUL	하오체	회상	비표준&감탄	더구려/EF		
+드구면	EC		NUL			비표준	더구먼/EC		
+드구면	EF		NUL			비표준	더구먼/EF		
+드군	EF		NUL	해체	회상	비표준	더군/EF		
+드냐	EF		NUL	해라체	과거	비표준	더냐/EF		
+드니	EF		NUL	해라체	과거	예스러움&구어	더니/EF		
+드니라	EF		NUL	해라체	회상	예스러움&비표준	더니라/EF		
+드라	EF		NUL	해라체	과거	비표준	더라/EF		
+드라도	EC		NUL			비표준	더라도/EC		
+드라면	EC		NUL			가정&비표준	더라면/EC		었/EP
+드래도	EC		NUL			비표준	더라도/EC		
+드룩	EC		NUL			방언	듯/EC		
+드키	EC		NUL			방언	듯이/EC		
+득기	EC		NUL			방언	듯이/EC		
+든	EC		NUL				든지/EC		
+든	EC		NUL				든지/EC		
+든	ETM		NUL		미완	비표준	던/ETM		
+든가	EC		NUL			선택			
+든가	EC		NUL						
+든가	EF		NUL	하게체	과거	의문&비표준	던가/EF		
+든가	EF		NUL		과거	의문&비표준	던가/EF		
+든걸	EF		NUL	해체	과거	구어&비표준	던걸/EF		
+든고	EF		NUL	해라체	과거	비표준	던고/EF		
+든데	EC		NUL		회상	비표준	던데/EC		
+든데	EF		NUL	해체	과거	비표준&감탄	던데/EF		
+든들	EC		NUL			비표준	던들/EC		었/EP
+든지	EC		NUL			선택		든가/EC	
+든지	EC		NUL					든가/EC	
+든지	EC		NUL			비표준	던지/EC		
+듯	EC		NUL				듯이/EC		
+듯이	EC		NUL						
+디	EC		NUL			강조			*/VA
+디	EF		NUL	해라체	과거	의문			
+디	EC		NUL			방언	니/EC		
+디	EF		NUL			방언	니/EF		
+디	EC		NUL			방언	지/EC		
+디	EF		NUL			방언	지/EF		
+디	EC		NUL			방언	지/EC		
+디	EF		NUL			방언	지/EF		
+디마는	EC		NUL			방언	지마는/EC		
+디만	EC		NUL			방언	지만/EC		
+디만	EF		NUL			방언	지만/EF		
+디요	EF		NUL			방언	지요/EF		
+디이	EC		NUL			방언	더니/EC		
+디이	EF		NUL			방언	더니/EF		
+딕기	EC		NUL			방언	듯이/EC		
+떼까	EF		NUL			방언	습니까/EF		
+ㄹ	ETM		VO|LQ						
+ㄹ	ETM		VO|LQ						
+ㄹ가	EF		VO|LQ	해체		비표준	을까/EF		
+ㄹ가	EF		VO				ㄹ까/EF		
+ㄹ값에	EC		VO			방언	을망정/EC		
+ㄹ거나	EF		VO|LQ	해체			을거나/EC		*/VV|*/EP
+ㄹ걸	EF		VO|LQ	해체		구어	을걸/EF		
+ㄹ걸	EF		VO|LQ			구어	을걸/EF		*/VV|*/EP
+ㄹ게	EF		VO|LQ	해체		구어	을게/EF		
+ㄹ고	EF		VO	해라체		예스러움&비표준	을꼬/EF		
+ㄹ고	EF		VO				을꼬/EF		
+ㄹ까	EF		VO|LQ	해체			을까/EF		
+ㄹ까	EF		VO|LQ	해체			을까/EF		
+ㄹ깝쇼	EF		VO|LQ	합쇼체		예스러움	는뎁쇼/EF		*/VV|*/EP
+ㄹ꺼나	EF		VO|LQ	해체		비표준	을거나/EF		*/VV|*/EP
+ㄹ께	EF		VO|LQ	해체		구어&비표준	을게/EF		
+ㄹ꼬	EF		VO|LQ	해라체		예스러움	을꼬/EF		
+ㄹ꼬	EF		VO|LQ	해라체		예스러움	을꼬/EF		*/VV|*/EP
+ㄹ꾸	EF		VO	해라체		예스러움&비표준	을꼬/EF		
+ㄹ꾸	EF		VO	해라체		예스러움&비표준	을꼬/EF		
+ㄹ꾸마	EF		VO			방언	마/EF		
+ㄹ는지	EC		VO|LQ				을는지/EC		
+ㄹ는지	EF		VO|LQ	하게체|해체			을는지/EC		
+ㄹ는지	EF		VO|LQ	하게체|해체			을는지/EF		
+ㄹ데라구	EF		VO|LQ	해체|해라체		감탄			
+ㄹ데라구야	EF		VO			강조	ㄹ데라구/EF		
+ㄹ데라니	EF		VO|LQ	해체|해라체		감탄	을데라니/EF		
+ㄹ디	EC		VO			방언	을지/EC		
+ㄹ디라도	EC		VO			방언	을지라도/EC		
+ㄹ딘댄	EC		VO			방언	ㄹ진대/EC		
+ㄹ라	EF		VO|LQ	해라체			을라/EF		
+ㄹ라	EF		VO			방언	을까/EF		
+ㄹ라	EC		VO			방언	려/EC		
+ㄹ라고	EF		VO|LQ				을라고/EF		
+ㄹ라구	EC		VO			방언	려고/EC		
+ㄹ라구	EF		VO			방언	려고/EF		
+ㄹ라면	EC		VO|LQ			비표준	으려면/EC		
+ㄹ라면	EC		VO|LQ			비표준	으려면/EC		
+ㄹ라우	EC		VO			방언	려오/EC		
+ㄹ라우	EF		VO			방언	려오/EF		
+ㄹ라치면	EC		VO|LQ				을라치면/EC		*/VV|*/EP
+ㄹ락	EC		VO|LQ				을락/EC		*/VV|*/EP
+ㄹ락	EC		VO			방언	려고/EC		
+ㄹ래	EF		VO|LQ	해체			을래/EF		
+ㄹ랜	EF		VO			방언	련/EF		
+ㄹ랩마	EF		VO			방언	려나/EF		
+ㄹ랴고	EC		VO|LQ			비표준	으려고/EC		*/VV|*/EP
+ㄹ랴고	EC		VO|LQ			비표준	으려고/EC		*/VV|*/EP
+ㄹ랴고	EF		VO|LQ	해체		비표준	으려고/EF		
+ㄹ러니	EC		VO|LQ		회상	예스러움	을러니/EC		
+ㄹ러라	EF		VO|LQ	해라체		예스러움	을레라/EF		
+ㄹ런가	EF		VO|LQ	하게체		예스러움	을런가/EF		
+ㄹ런가	EF		VO			강조	을런가/EF		
+ㄹ런고	EF		VO|LQ			옛스러움	을런가/EF		
+ㄹ런지	EC		VO			비표준	을는지/EC		
+ㄹ런지	EF		VO	하게체|해체		비표준	을런지/EF		
+ㄹ런지	EF		VO	하게체|해체		비표준	을런지/EF		
+ㄹ레	EF		VO|LQ	하게체					
+ㄹ레	EF		VO|LQ	하게체			을레/EF		
+ㄹ레라	EF		VO|LQ	해라체		예스러움	을레라/EF		
+ㄹ려고	EC		VO|LQ			비표준	으려고/EC		*/VV|*/EP
+ㄹ려고	EC		VO|LQ			비표준	으려고/EC		*/VV|*/EP
+ㄹ려고	EF		VO|LQ	해체		비표준	으려고/EF		
+ㄹ려면	EC		VO|LQ			비표준	으려면/EC		
+ㄹ려면	EC		VO|LQ			비표준	으려면/EC		
+ㄹ려야	EF		VO|LQ			비표준	으려야/EF		*/VV|*/EP
+ㄹ리라	EF		VO			방언	을라/EF		
+ㄹ망정	EC		VO|LQ				을망정/EC		
+ㄹ밖에	EF		VO|LQ	해체			을밖에/EF		
+ㄹ뿐더러	EC		VO|LQ				을뿐더러/EC		
+ㄹ사	EC		VO|LQ						
+ㄹ사	EF		VO|LQ	해요체|하오체		예스러움	을사/EF		
+ㄹ사록	EC		VO			비표준	을수록/EC		
+ㄹ새	EC		VO|LQ		진행	예스러움	을새/EC		
+ㄹ세	EF		VO|LQ	하게체			을세/EF		
+ㄹ세	EF		VO	하게체			을세/EF		*/VCP|*/VCN
+ㄹ세	EF		VO	하게체		감탄	을세/EF		*/VCP|*/VCN
+ㄹ세라	EC		VO|LQ				을세라/EC		
+ㄹ세라	EF		VO|LQ	해라체					
+ㄹ세라	EF		VO|LQ			감탄			
+ㄹ세말이지	EF		VO|LQ	해체					
+ㄹ소냐	EF		VO			방언&강조&부정	을쏘냐/EF		
+ㄹ손가	EF		VO|LQ	하게체		예스러움&비표준	을쏜가/EF		
+ㄹ수록	EC		VO|LQ				을수록/EC		
+ㄹ시	EC		VO|LQ			예스러움	을시/EC		
+ㄹ시고	EF		VO|LQ			예스러움&감탄	을시고/EF		
+ㄹ쏘냐	EF		VO|LQ	해라체		예스러움	을쏘냐/EF		
+ㄹ쏜가	EF		VO|LQ	하게체		예스러움	을쏜가/EF		
+ㄹ이만큼	EC		VO|LQ			비표준	으리만큼/EC		
+ㄹ작시면	EC		VO|LQ			예스러움	을시면/EC		*/VV|*/EP
+ㄹ지	EC		VO|LQ				을지/EC		
+ㄹ지	EF		VO|LQ	해체			을지/EF		
+ㄹ지나	EC		VO|LQ			예스러움	을지나/EC		
+ㄹ지니	EC		VO|LQ			예스러움	을지나/EC		
+ㄹ지니라	EF		VO|LQ	해라체		예스러움	을지나라/EF		
+ㄹ지라	EF		VO|LQ	해라체		예스러움	을지라/EF		
+ㄹ지라도	EC		VO|LQ				을지라도/EC		
+ㄹ지로다	EF		VO|LQ	해라체		예스러움&감탄	을지로다/EF		
+ㄹ지며	EC		VO|LQ				을지며/EC		*/VV|*/EP
+ㄹ지어다	EF		VO|LQ	해라체		예스러움	을지어다/EF		
+ㄹ지언정	EC		VO|LQ				을지언정/EC		
+ㄹ진대	EC		VO|LQ			예스러움	을진대/EC		
+ㄹ진대는	EC		VO|LQ			강조&근거	을진댄/EC		
+ㄹ진댄	EC		VO|LQ			강조	을진대/EC		
+ㄹ진저	EF		VO|LQ	해라체		예스러움	을진저/EF		
+라	EC		VO				라서/EC		으시/EP|*/VCP|*/VCN
+라	EC		VO						
+라	EF		VO	해라체		예스러움			
+라	EF		VO|LQ			명령	으라/EF		*/VV|*/EP
+라	EF		VO	해라체		명령	어라/EF		
+라	EF		VO|LQ	해라체		명령	어라/EF		*/VV|*/EP
+라고	EC		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+라고	EC		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+라고	EF		VO	해체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라고	EF		VO	해체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라고	EF		VO	해체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라고	EF		VO|LQ	해체		강조			*/VV|*/EP
+라고	EF		VO|LQ	해체					*/VV|*/EP
+라구	EC		VO			비표준	으라고/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+라구	EF		VO	해체		강조&비표준	으라고/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+라구	EC		VO			비표준	으라고/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+라구	EF		VO|LQ	해체		비표준	으라고/EF		*/VV|*/EP
+라구	EF		VO	해체		비표준	으라고/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+라구	EF		VO|LQ	해체		강조&비표준	으라고/EF		*/VV|*/EP
+라구	EF		VO	해체		해체&비표준	으라고/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+라나	EF		VO			구어			*/VCP|*/VCN|으시/EP|더|으리/EP
+라나	EF		VO|LQ			구어	으라나/EF		*/VV|*/EP
+라네	EF		VO	하게체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라느니	EC		VO				으라느니/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+라느니	EC		VO|LQ				으라느니/EC		*/VV|*/EP
+라니	EF		VO	해체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라니	EF		VO	해라체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라니까	EF		VO	해라체		확인	는다니까/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+라니까	EF		VO|LQ	해라체		명령	으라니까/EF		*/VV|*/EP
+라도	EC		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+라라	EF		NUL			방언	더구나/EF		
+라마	EF		NUL			방언	려무나/EF		
+라며	EC		NUL			사실	으라며/EC		
+라며	EF		NUL				으라며/EF		
+라면	EC		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+라면서	EF		VO	해체		확인	으라면서/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+라면서	EF		VO|LQ	해체		확인	으라면서/EF		*/VV|*/EP
+라서	EC		VO						*/VCP|*/VCN|으시/EP
+라손	EC		VO				으라손/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+라손	EC		VO|LQ				으라손/EC		*/VV|*/EP
+라야	EC		VO						*/VCP|*/VCN|으시/EP
+라야만	EC		VO				라야만/EC		*/VCP|*/VCN|으시/EP
+라오	EF		VO	하오체					*/VCP|*/VCN|으시/EP|더|으리/EP
+라우	EC		NUL			방언	요/EC		
+라우요	EF		NUL			방언	아요/EF		
+라지	EF		VO	해체		확인			*/VCP|*/VCN|으시/EP|더|으리/EP
+락	EC		VO|LQ				으락/EC		
+락	EC		NUL			방언	라고/EC		
+락	EF		NUL			방언	라고/EF		
+란	EC		NUL			방언	라서/EC		
+란다	EF		VO	해라체					*/VCP|*/VCN|으시/EP|더|으리/EP
+람	EF		VO	해라체		구어			*/VCP|*/VCN|으시/EP|더|으리/EP
+람	EF		VO|LQ	해라체		구어	으람/EF		*/VV|*/EP
+랍니까	EF		VO	합쇼체					*/VCP|*/VCN|으시/EP|더|으리/EP
+랍니다	EF		VO	합쇼체					*/VCP|*/VCN|으시/EP|더|으리/EP
+랍데	EF		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+랍시고	EC		VO						*/VCP|*/VCN|으시/EP|더|으리/EP
+랑	EC		NUL			방언	라서/EC		
+랑근에	EC		NUL			방언	라서/EC		
+랑께	EF		NUL			방언	라니까/EF		
+래	EF		VO	해체					*/VCP|*/VCN|으시/EP|더|으리/EP
+래	EF		VO			방언	야/EF		*/VCP|*/VCN
+래디	EF		NUL			방언	라지/EF		
+래문	EC		NUL			방언	라면/EC		
+래야만	EC		NUL			방언	라야만/EC		
+래요	EF		VO	해요체		구어			*/VCP|*/VCN|으시/EP|더|으리/EP
+래요	EF		VO	해요체					*/VCP|*/VCN|*/VV
+래이	EC		NUL			방언	라/EC		
+래이	EF		NUL			방언	라/EF		
+랬	EP		VO						더/EP
+랴	EC		VO|LQ				으랴/EC		*/VV|*/으시
+랴	EF		VO|LQ	해라체			으랴/EF		
+랴	EF		VO|LQ	해라체			으랴/EF		*/VV
+랴르	EC		NUL			방언	게/EC		
+랴르	EF		NUL			방언	게/EF		
+러	EC		VO|LQ				으러EC		*/VV|*/EP
+러니	EC		NUL		과거	예스러움	더니/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+러니라	EF		NUL	해라체	회상	예스러움	더니라/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+러니이까	EF		NUL	합쇼체		예스러움	더니이까/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+러니이다	EF		NUL			예스러움	더니이다/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+러라	EF		NUL		과거	예스러움	더러/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+러이까	EF		NUL	합쇼체		예스러움	더이까/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+러이다	EF		NUL	합쇼체		예스러움	더이다/EF		*/VCP|*/VCN|으시/EP|더|으리/EP
+런가	EF		NUL	하게체					*/VCP|*/VCN|으시/EP|더|으리/EP
+런들	EC		NUL			예스러움	던들/EC		*/VCP|*/VCN|으시/EP|더|으리/EP
+레	EF		NUL			방언	을까/EF		
+레	EC		NUL			방언	러/EC		
+려	EC		VO|LQ				으려/EC		*/VV|*/EP
+려	EC		VO|LQ				으려/EC		*/VV|*/EP
+려거든	EC		NUL				으려거든/EC		
+려고	EC		VO|LQ				으려고/EC		*/VV|*/EP
+려고	EC		VO|LQ				으려고/EC		*/VV|*/EP
+려고	EF		VO|LQ	해체			으려고/EF		
+려나	EF		VO|LQ	해체			으려나/EF		
+려니	EF		VO|LQ				으려니/EF		
+려니와	EC		VO|LQ				으려니와/EC		
+려니와	EC		VO|LQ				으려니와/EC		
+려든	EC		VO|LQ			예스러움	으려든/EC		*/VV|*/EP
+려마	EC		NUL				으려마/EC		
+려마	EF		NUL				으려마/EF		
+려면	EC		VO|LQ				으려면/EC		
+려면	EC		VO|LQ				으려면/EC		
+려면	EC		VO|LQ				으려면/EC		
+려무나	EF		VO|LQ	해라체			으려무나/EF		*/VV
+련	EF		NUL	해라체			으련/EF		
+련마는	EC		VO|LQ			예스러움	으련마는/EC		
+련만	EC		NUL				으련마는/EC		
+련만	EF		NUL				으련마는/EF		
+렴	EF		VO|LQ	해라체			으렴/EF		*/VV
+렵니까	EF		NUL	합쇼체			으렵니까/EF		
+렵니다	EF		NUL	합쇼체			으렵니다/EF		
+렷다	EF		VO|LQ				으렷다/EF		
+렷다	EF		VO|LQ				으렷다/EF		
+로고	EF		NUL	해체					*/VCP|*/VCN|으시/EP
+로고나	EF		NUL	해라체		예스러움&비표준&감탄	으로구나/EF		*/VCP|*/VCN|으시/EP
+로구나	EF		NUL	해라체		예스러움&감탄			*/VCP|*/VCN|으시/EP
+로구려	EF		NUL	하오체		예스러움&감탄			*/VCP|*/VCN|으시/EP
+로구료	EF		NUL	하오체		예스러움&비표준&감탄	으로구먼/EF		*/VCP|*/VCN|으시/EP
+로구만	EF		NUL			비표준	으로구먼/EF		
+로구만	EF		NUL						
+로구먼	EF		NUL						
+로구면	EF		NUL			비표준	으로구먼/EF		
+로군	EF		NUL	해체		예스러움&감탄			*/VCP|*/VCN|으시/EP
+로군	EF		NUL				로구나/EF		
+로다	EF		NUL	해라체		예스러움&감탄			*/VCP|*/VCN|으시/EP
+로되	EC		NUL						*/VCP|*/VCN|으시/EP
+로되	EC		NUL						*/VCP|*/VCN|으시/EP
+로라	EF		NUL			예스러움			*/VCP|*/VCN
+로서니	EC		NUL			강조	기로서/EC		
+로세	EF		NUL	하게체		감탄			*/VCP|*/VCN|으시/EP
+리	EP		VO|LQ			예스러움	으리/EP		
+리	EP		VO|LQ			예스러움	으리/EP		
+리	EF		VO|LQ	해라체		예스러움	으리/EF		
+리	EF		VO|LQ	해라체			으리/EF		
+리	EF		VO|LQ	해라체			으리/EF		
+리까	EF		VO|LQ	합쇼체			으리까/EF		
+리까	EF		VO|LQ	합쇼체			으리까/EF		
+리니	EC		VO|LQ				으리니/EC		
+리니	EC		VO|LQ				으리니/EC		
+리니라	EF		VO|LQ	해라체		예스러움	으리니라/EC		
+리다	EF		VO|LQ	하오체			으리다/EF		
+리다	EF		VO|LQ	하오체			으리다/EF		
+리라	EF		VO|LQ	해라체			으리라/EF		
+리라	EF		VO|LQ	해라체			으리다/EF		
+리로다	EF		VO|LQ	해라체			으리로다/EF		
+리로다	EF		VO|LQ	해라체			으리로다/EF		
+리만치	EC		VO|LQ				으리만치/EC		
+리만큼	EC		VO|LQ				으리만큼/EC		
+리오	EF		VO|LQ				으리오/EF		
+ㅁ	ETN		VO|LQ				음		
+ㅁ	EC		VO|LQ			구어	음		
+ㅁ마	EF		VO|LQ	해라체		비표준	마/EF		
+ㅁ서	EC		VO			방언	면서/EC		
+ㅁ성	EC		VO			방언	으면서/EC		
+ㅁ세	EF		VO|LQ	하게체			음세/EF		*/VV
+ㅁ시로	EC		VO			방언	으면서/EC		
+ㅁ에랴	EF		VO|LQ				음에라/EF		
+마	EF		VO|LQ	해라체			으마/EF		*/VV
+만	EC		NUL			방언	면/EC		
+매	EC		VO|LQ				으매/EC		
+매	EF		NUL			방언	마/EF		
+매	EC		NUL			방언	며/EC		
+맨	EC		NUL			방언	면/EC		
+맨	EF		NUL			방언	마/EF		
+멍	EC		NUL			방언	면서/EC		
+메서란	EC		NUL			방언	매/EC		
+메선	EC		NUL			방언	매/EC		
+멘	EC		NUL			방언	면서/EC		
+며	EC		VO|LQ				으면/EC		
+며	EC		VO|LQ				으면/EC		
+면	EC		VO|LQ				으면/EC		
+면	EC		VO|LQ				으면/EC		
+면	EC		VO|LQ				으면/EC		
+면	EC		VO|LQ				으면/EC		
+면서	EC		VO|LQ				으면서/EC		
+면서	EC		VO|LQ				으면서/EC		
+모	EC		NUL			방언	면/EC		
+몬	EC		NUL			방언	면/EC		
+무	EC		NUL			방언	면/EC		
+문	EC		NUL			방언	면/EC		
+므는	EC		NUL			방언	면/EC		
+므로	EC		VO|LQ				으므로/EC		
+믄	EC		NUL			방언	면/EC		
+믄서	EC		NUL			방언	면서/EC		
+민	EC		NUL			방언	면서/EC		
+민서	EC		NUL			방언	면서/EC		
+ㅂ나	EF		VO|LQ						
+ㅂ네	EC		VO|LQ			못마땅	습네/EC		
+ㅂ네다	EF		VO			방언	습니다/EF		
+ㅂ네다레	EF		VO			방언	는구려/EF		
+ㅂ늰다	EF		VO|LQ	하오체			습늰다/EF		
+ㅂ니	EF		VO			방언	습니다/EF		
+ㅂ니까	EF		VO|LQ	합쇼체			습니까/EF		
+ㅂ니꺄	EF		VO			방언	습니까/EF		
+ㅂ니꺼	EF		VO			방언	습니까/EF		
+ㅂ니껴	EF		VO			방언	습니까/EF		
+ㅂ니꽈	EF		VO			방언	습니까/EF		
+ㅂ니다	EF		VO|LQ	합쇼체	현재&진행		습니다/EF		
+ㅂ니더	EF		VO			방언	습니다/EF		
+ㅂ데다	EF		VO			방언	습니다/EF		
+ㅂ동와	EF		VO			방언	던가/EF		
+ㅂ디까	EF		VO|LQ	하오체			습디까/EF		
+ㅂ디꺼	EF		VO			방언	습디까/EF		
+ㅂ디껴	EF		VO			방언	습디까/EF		
+ㅂ디다	EF		VO|LQ	하오체			습디다/EF		
+ㅂ디다레	EF		VO			방언	더구려/EF		
+ㅂ디더	EF		VO			방언	습디다/EF		
+ㅂ디여	EF		VO			방언	습디까/EF		
+ㅂ딘다	EF		VO|LQ	하오체			습딘다/EF		
+ㅂ마	EF		VO			방언	는가/EF		
+ㅂ마	EF		VO			방언	마/EF		
+ㅂ머니	EF		VO			방언	네/EF		
+ㅂ먼다	EF		VO			방언	습니다/EF		
+ㅂ메	EF		VO			방언	네/EF		
+ㅂ메	EF		VO			방언	어요/EF		
+ㅂ메다	EF		VO			방언	습니다/EF		
+ㅂ멘다	EF		VO			방언	습니다/EF		
+ㅂ무다	EF		VO			방언	습니다/EF		
+ㅂ무다레	EF		VO			방언	는구려/EF		
+ㅂ서	EF		VO			방언	ㅂ시오/EF		
+ㅂ세	EF		VO			방언	세/EF		
+ㅂ세	EF		VO			방언	게/EF		
+ㅂ세	EF		VO			방언	ㅂ시다/EF		
+ㅂ세다	EF		VO			방언	ㅂ시다/EF		
+ㅂ소서	EF		VO						
+ㅂ쇼	EF		VO				ㅂ시오/EF		
+ㅂ시다	EF		VO|LQ	하오체			읍시다/EF		*/VV|*/EP
+ㅂ시다	EF		VO|LQ	하오체			읍시다/EF		*/VV|*/EP
+ㅂ시다나	EF		VO			강조&권유	읍시다나/EF		
+ㅂ시사	EF		VO|LQ	합쇼체		예스러움	읍시사/EF		*/VV|*/EP
+ㅂ시오	EF		VO|LQ	합쇼체		명령	읍시오/EF		*/VV|*/EP
+ㅂ죠	EF		VO				ㅂ지요/EF		
+ㅂ지요	EF		VO|LQ	합쇼체			습지요/EF		
+사	EF		VO|LQ			예스러움	시어/EF		
+사오	EP		LQ|FS			예스러움			
+사오니까	EF		LQ|FS	합쇼체		예스러움	으오니까/EF		
+사오리까	EF		LQ|FS	합쇼체		예스러움	으오리까/EF		
+사오리다	EF		LQ|FS	합쇼체			으오리다/EF		
+사오리다	EF		LQ|FS	합쇼체			으오리다/EF		
+사오리이까	EF		LQ|FS	합쇼체		예스러움	으오리이까/EF		
+사오리이다	EF		LQ|FS	합쇼체		예스러움	으오리이다/EF		
+사오이다	EF		LQ|FS	합쇼체		예스러움	으오이다/EF		
+사옵	EP		LQ|FS			예스러움	사옵/EP		
+사옵나이까	EF		LQ|FS	합쇼체		예스러움	으옵나이까/EF		
+사옵나이다	EF		LQ|FS	합쇼체		예스러움	으옵나이다/EF		
+사옵니까	EF		LQ|FS	합쇼체		예스러움	으옵니까/EF		
+사옵니다	EF		LQ|FS	합쇼체		예스러움	으옵니다/EF		
+사옵디까	EF		LQ|FS	합쇼체	과거	예스러움&의문	으옵디까/EF		
+사옵디다	EF		LQ|FS	합쇼체	과거	예스러움	으옵디다/EF		
+사옵시	EP		LQ|FS			예스러움			
+사와	EC		LQ|FS			예스러움	으와/EC		
+사외다	EF		NUL				사오이다/EF		
+사이다	EF		LQ|FS	합쇼체		예스러움&청유	으사이다/EF		
+사주	EF		NUL			방언	야지/EF		
+삽	EP		LQ|FS			예스러움			
+세	EF		VO|LQ	하게체			게/EF		
+세나	EF		NUL				게나/EF		*/VV
+세요	EF		VO|LQ	해요체			으세요/EF	으시어요/EF	
+셔요	EF		VO|LQ				시어요/EF	으시어요/EF	
+소	EF		LQ|FS	하오체					
+소니까	EF		FS	합쇼체		예스러움			
+소다	EF		NUL				사오이다/EF		
+소다	EF		NUL						
+소서	EF		VO|LQ	합쇼체					
+소야	EF		NUL			방언	셔요/EF		
+소오리까	EF		FS						
+소옵니까	EF		FS						
+소와요	EF		NUL			방언	사옵니다/EF		
+소웨	EF		NUL			방언	네/EF		
+소이까	EF		LQ|FS						
+소이다	EF		NUL				사오이다/EF		
+송와	EF		NUL			방언	는가/EF		
+쇠다	EF		NUL				소이다/EF		
+수다	EF		NUL			방언	어요/EF		
+수다레	EF		NUL			방언	소이다/EF		
+수와	EF		NUL			방언	어요/EF		
+쉐	EF		NUL			방언	소/EF		
+슈	EF		NUL			방언	어요/EF		
+슴	EF		NUL			방언	습니까/EF		
+슴	EF		NUL			방언	습니다/EF		
+슴두	EF		NUL			방언	습니까/EF		
+슴둥	EF		NUL			방언	습니까/EF		
+슴메	EF		NUL			방언	어요/EF		
+습꾸마	EF		NUL			방언	습니다/EF		
+습꿔니	EF		NUL			방언	습니다/EF		
+습나	EF		FS			예스러움			
+습네	EC		FS			못마땅			
+습네	EF		NUL						
+습네다	EF		NUL			방언	습니다/EF		
+습네다레	EF		NUL			방언	는구려/EF		
+습늰다	EF		FS	하오체					
+습니	EF		NUL			방언	습니다/EF		
+습니까	EF		FS	합쇼체					
+습니다	EF		FS	합쇼체	진행				
+습닌다	EF		FS						
+습데	EF		NUL			방언	데/EF		
+습데게레	EF		NUL			방언	더구려/EF		
+습동와	EF		NUL			방언	던가/EF		
+습디까	EF		FS	하오체					
+습디다	EF		FS	하오체					
+습디다레	EF		NUL			방언	더구려/EF		
+습디여	EF		NUL			방언	습디까/EF		
+습딘다	EF		FS	하오체					
+습마	EF		NUL			방언	는가/EF		
+습머니	EF		NUL			방언	네/EF		
+습머이	EF		NUL			방언	네/EF		
+습메게레	EF		NUL			방언	네그려/EF		
+습메다	EF		NUL			방언	습니다/EF		
+습메다레	EF		NUL			방언	는구려/EF		
+습무다	EF		NUL			방언	습니다/EF		
+습무다레	EF		NUL			방언	는구려/EF		
+습세	EF		NUL			방언	세/EF		
+습세다	EF		NUL			방언	읍시다/EF		
+습죠	EF		NUL				습지요/EF		
+습지요	EF		FS	합쇼체					
+시	EP		VO|LQ						
+시	EC		NUL			방언	게/EC		
+시	EF		NUL			방언	게/EF		
+시겨	EF		NUL			방언	십시오/EF		
+시단	EF		NUL			방언	게나/EF		
+시라	EF		VO|LQ	합쇼체		명령	으시라/EF		
+시라요	EF		NUL			방언	시어요/EF		
+시소	EF		NUL			방언	십시오/EF		
+시압	EF		VO|LQ			명령	으시압/EF		
+시어요	EF		VO|LQ	해요체			으시어요/EF		
+시이소	EF		NUL			방언	십시오/EF		
+심니껴	EF		NUL			방언	습니까/EF		
+심더	EF		NUL			방언	습니다/EF		
+십니꺼	EF		NUL			방언	습니까/EF		
+십사	EF		VO|LQ	합쇼체			으십사/EF		
+십시다	EF		VO|LQ	합쇼체			으십시다/EF		
+십시오	EF		VO|LQ	합쇼체			으십시오/EF		
+아	EC		YANG1						
+아	EC		YANG1						
+아	EC		YANG1						
+아	EF		YANG1	해체					
+아다	EC		YANG1					아다가/EC	
+아다가	EC		YANG1						
+아도	EC		YANG2						
+아라	EF		YANG1	해라체		명령			
+아라	EF		YANG1			감탄			
+아라우	EF		YANG1	해요체		비표준	아요/EF		
+아서	EC		YANG1						
+아서	EC		YANG1						
+아서	EC		YANG1						
+아야	EC		YANG1					아야지/EC	
+아야	EC		YANG1						
+아야만	EC		YANG1						
+아야지	EC		YANG1						
+아야지	EF		YANG1						
+아야지	EF		YANG1						
+아요	EF		YANG1	해요체					
+아지이다	EF		YANG1			예스러움			
+안	EC		NUL			방언	고서/EC		
+안	EC		NUL			방언	아서/EC		
+안게	EC		NUL			방언	던데/EC		
+안게	EF		NUL			방언	던데/EF		
+안에	EC		NUL			방언	고서/EC		
+안에	EC		NUL			방언	아서/EC		
+았	EP		YANG1						
+았	EP		YANG1						
+았	EP		YANG1						
+았댔	EP		NUL						
+았었	EP		YANG1		과거				
+았자	EF		NUL						
+앙	EC		NUL			방언	고서/EC		
+앙	EC		NUL			방언	아서/EC		
+앙근	EC		NUL			방언	고서/EC		
+앙근에	EC		NUL			방언	고서/EC		
+앙근에	EC		NUL			방언	아서/EC		
+야	EF		NUL	해체					
+야	X		NUL						
+야만	EC		NUL				아야만/EC		
+야지	EF		NUL						
+어	EC		EUM1				아/EC		
+어	EC		EUM1				아/EC		
+어	EC		EUM1				아/EC		
+어	EF		EUM1	해체			아/EC		
+어근	EC		NUL			방언	아서/EC		
+어근에	EC		NUL			방언	아서/EC		
+어네	EC		NUL			방언	아서/EC		
+어다	EC		EUM1				아다/EC	아다가/EC	
+어다가	EC		EUM1				아다가/EC		
+어도	EC		EUM1				아도/EC		
+어라	EF		EUM1	해라체		명령	아라/EF		
+어라	EF		EUM1			감탄	아라/EF		
+어라우	EC		NUL			방언	어요/EC		
+어사	EC		NUL			방언	어야/EC		
+어서	EC		YANG1				아서/EC		
+어서	EC		YANG1				아서/EC		
+어서	EC		YANG1				아서/EC		
+어시요	ESF	었/EP+어요/EF	NUL			방언	었/EP+어요/EF		
+어야	EC		EUM1				아야/EC	아야지/EC	
+어야	EC		EUM1				아야/EC		
+어야만	EC		EUM1				아야만/EC		
+어야지	EC		EUM1				아야지/EC		
+어야지	EF		EUM1				아야지/EC		
+어야지	EF		EUM1				아야지/EC		
+어요	EF		EUM1	해요체			아요/EF		
+어유	EF		NUL			방언	아요/EF		
+어지이다	EF		EUM1			예스러움	아지이다/EF		
+언	EC		NUL			방언	고/EC		
+언	EF		NUL			방언	고/EF		
+언	ESF	었/EP+니/EF	NUL			방언	었/EP+니/EF		
+언마는	EC		NUL			예스러움	건마는/EC		*/VCP|*/VCN|으시/EP
+언만	EF		NUL				언마는/EF		
+언정	EC		NUL				을만정/EC		*/VCP|*/VCN|으시/EP
+었	EP		EUM1				았/EP		
+었	EP		EUM1				았/EP		
+었	EP		EUM1				았/EP		
+었댔	EP		NUL				았었/EP		
+었었	EP		EUM1		과거		았었/EP		
+엉	EC		NUL			방언	고서/EC		
+엉	EC		NUL			방언	어서/EC		
+엉게	EC		NUL			방언	던데/EC		
+엉게	EF		NUL			방언	던데/EF		
+엉근	EC		NUL			방언	고서/EC		
+엉근	EC		NUL			방언	어서/EC		
+엉은	EC		NUL			방언	어서/EC		
+에라	EF		NUL			감탄			
+에요	EF		NUL	해요체					*/VCP|*/VCN
+여	EC		NUL				아/EC		*하/VV|*하/VA
+여	EC		NUL				아/EC		*하/VV|*하/VA
+여	EC		NUL				아/EC		*하/VV|*하/VA
+여	EF		NUL	해체			아/EF		*하/VV|*하/VA
+여근	EC		NUL			방언	아서/EC		
+여냐	EF		NUL			방언	더냐/EF		
+여다	EC		NUL				아다/EC	아다가/EC	*하/VV
+여다가	EC		NUL				아다가/EC		*하/VV|*하/VA
+여도	EC		NUL				아도/EC		*하/VV|*하/VA
+여라	EF		NUL	해라체			아라/EC		*하/VV
+여라	EF		NUL	해라체		감탄	아라/EF		*하/VA
+여서	EC		NUL				아서/EC		*하/VV|*하/VA
+여서	EC		NUL				아서/EC		*하/VV|*하/VA
+여서	EC		NUL						*하/VV|*하/VA
+여야	EC		NUL				아야/EC	아야지/EC	*하/VV|*하/VA
+여야	EC		NUL				아야/EC		*하/VV|*하/VA
+여야만	EC		NUL				아야만/EC		*하/VV|*하/VA
+여야지	EC		NUL				아야지/EC		*하/VV|*하/VA
+여야지	EF		NUL				아야지/EF		*하/VV|*하/VA
+여야지	EF		NUL				아야지/EF		*하/VV|*하/VA
+여요	EF		NUL	해요체			아요/EF		*하/VV|*하/VA
+여지이다	EF		NUL			예스러움	아지이다/EC		*하/VV|*하/VA
+연	EC		NUL			방언	여서/EC		
+연게	EC		NUL			방언	던데/EC		
+연게	EF		NUL			방언	던데/EF		
+연만	EC		NUL			비표준	건마는/EC		
+연에	EC		NUL			방언	여서/EC		
+였	EP		NUL				았/EP		
+였	EP		NUL				았/EP		
+였	EP		NUL				았/EP		
+였었	EP		NUL		과거		았었/EP		
+였자	EC		NUL				았자/EC		*하/VV|*하/VA
+영	EC		NUL			방언	어서/EC		
+영근	EC		NUL			방언	여서/EC		
+오	EP		VO|LQ			예스러움			
+오	EF		VO|LQ	하오체					
+오니까	EF		LQ|FS	합쇼체		예스러움	으오니까/EF		
+오리까	EF		LQ|FS	합쇼체		예스러움	으오리까/EF		
+오리다	EF		VO|LQ	합쇼체		예스러움	으오리다/EF		
+오리다	EF		VO|LQ	합쇼체		예스러움	으오리다/EF		
+오리이까	EF		VO|LQ	합쇼체		예스러움	으오리이까/EF		
+오리이다	EF		VO|LQ	합쇼체		예스러움	으오리이다/EF		
+오이까	EF		VO|LQ						
+오이다	EF		LQ|FS	합쇼체		예스러움	으오이다/EF		
+올습니다	EF		NUL	합쇼체		비표준	올시다/EF		*/VCP|*/VCN
+올시다	EF		NUL	합쇼체					*/VCP|*/VCN
+옵	EP		VO|LQ			예스러움			
+옵나이까	EF		VO|LQ	합쇼체		예스러움	으옵나이까/EF		
+옵나이다	EF		VO|LQ	합쇼체		예스러움	으옵나이다/EF		
+옵니까	EF		VO|LQ	합쇼체			으옵니까/EF		
+옵니다	EF		VO|LQ	합쇼체			으옵니다/EF		
+옵디까	EF		VO|LQ	합쇼체	과거	의문	으옵디까/EF		
+옵디다	EF		VO|LQ	합쇼체	과거	의문	으옵디다/EF		
+옵소서	EF		VO|LQ	합쇼체		예스러움	으옵소서/EF		
+옵시	EP		VO|LQ			예스러움	으옵시/EP		
+와	ESC	오/EP+아/EC	VO|LQ				오/EP+아/EC		
+와	ESF	오/EP+아/EF	VO|LQ				오/EP+아/EP		
+와	EP		NUL			방언	오/EP		
+와	EF		NUL			방언	어요/EF		
+외다	EF		NUL				오이다/EF		
+요	EC		NUL						*/VCP|*/VCN
+우	EF		NUL	하오체			으우/EF		
+우	EF		VO|LQ	하오체		비표준	오/EF		
+우다	EF		NUL			방언	습니다/EF		
+우다	EF		NUL			방언	오이다/EF		
+우다	EF		NUL			방언	어요/EF		
+워다	EF		NUL			방언	오이다/EF		
+워다레	EF		NUL			방언	로구려/EF		
+워리	EF		VO	하게체					
+워리	EF		VO	해라체					
+원다	EF		NUL			방언	오이다/EF		
+월다	EF		NUL			방언	리다/EF		
+웨	EF		NUL			방언	ㄹ세/EF		
+웨다	EF		NUL			방언	오이다/EF		
+웨다레	EF		NUL			방언	로구려/EF		
+웬다	EF		NUL			방언	오이다/EF		
+웰다	EF		NUL			방언	리라/EF		
+으꺼마	EF		NUL			방언	을게/EF		
+으께	EF		LQ|FS	해체		구어&비표준	을게/EF		*/VV
+으나	EC		FS						
+으나	EC		FS						
+으나	EC		FS			강조			
+으나따나	EC		NUL			방언	으나마/EC		
+으나마	EC		FS						
+으난	EC		NUL			방언	으니/EC		
+으냐	EF		FS	해라체		예스러움			*/VA
+으냐고	EF		FS	해체					*/VA
+으냐고	EF		FS	해체					*/VA
+으냐고	EF		FS						*/VA
+으뇨	EF		FS	해라체		예스러움			*/VA
+으니	EC		FS						
+으니	EC		FS						
+으니	EC		FS						*/VA
+으니	EF		FS	하게체					*/VA
+으니	EF		FS	해라체					*/VA
+으니까	EC		FS			강조	으니/EC		
+으니까느루	EC		FS			강조&비표준	으니/EC		
+으니까는	EC		FS			강조			
+으니까니	EC		NUL			방언	으니까/EC		
+으니깐	EC		NUL				으니까는/EC		
+으니라	EF		FS	해라체		예스러움			
+으니만치	EC		FS					으니만치/EC	
+으니만큼	EC		FS						
+으닝까	EC		NUL			방언	으니까/EC		
+으되	EC		NUL			예스러움			*/VCP|*/VCN|*/EP
+으되	EC		NUL						*/VCP|*/VCN|*/EP
+으되	EC		NUL						*/VCP|*/VCN|*/EP
+으라	EF		LQ|FS			예스러움			*/VV
+으라	EF		LQ|FS	해라체		명령			*/VV
+으라고	EF		LQ|FS	해체		강조			*/VV
+으라고	EF		LQ|FS	해체					*/VV
+으라나	EF		LQ|FS			구어			*/VV
+으라느니	EC		LQ|FS						*/VV
+으라니까	EF		LQ|FS	해라체		명령			*/VV
+으라마	EF		NUL			방언	으려무나/EF		
+으라며	EC		NUL				으라면서/EC		
+으라면서	EF		LQ|FS	해체		확인			*/VV
+으라무나	EF		NUL			방언	으려무나/EF		
+으라손	EC		LQ|FS						*/VV
+으라우	EF		NUL			방언	아라/EF		
+으라이	EF		NUL			방언	구려/EF		
+으락	EC		FS						
+으란	EC		LQ|FS				으라는/EC		*/VV
+으람	EF		LQ|FS	해라체		구어			*/VV
+으래니께	EF		NUL			방언	으라니까/EF		
+으래이	EF		NUL			방언	으라/EF		
+으랴	EC		LQ|FS						*/VV
+으랴	EF		FS	해라체					
+으랴	EF		LQ|FS	해라체					*/VV
+으러	EC		LQ|FS						*/VV
+으레	EC		NUL			방언	으러/EC		
+으려	EC		LQ|FS						*/VV
+으려	EC		LQ|FS						*/VV
+으려거든	EC		LQ|FS						*/VV
+으려고	EC		LQ|FS						*/VV
+으려고	EC		LQ|FS						*/VV
+으려고	EF		LQ|FS	해체					
+으려나	EF		FS	해체					
+으려니	EF		FS						
+으려니와	EC		FS						
+으려니와	EC		FS						
+으려든	EC		LQ|FS			예스러움			*/VV
+으려마	EF		NUL				으려무나/EF		
+으려면	EC		FS						
+으려면	EC		FS						
+으려면	EC		FS						
+으려무나	EF		LQ|FS	해라체					*/VV
+으련	EF		LQ|FS	해라체					*/VV
+으련마는	EC		FS			예스러움			
+으련만	EC		NUL				으련마는/EC		
+으렴	EF		LQ|FS	해라체					*/VV
+으렵니까	EF		LQ|FS	합쇼체					*/VV
+으렵니다	EF		LQ|FS	합쇼체					*/VV
+으렷다	EF		FS	해라체					
+으렷다	EF		FS			명령			
+으리	EP		FS			예스러움			
+으리	EP		FS			예스러움			
+으리	EF		FS	해라체		예스러움			
+으리	EF		FS	해라체					
+으리	EF		FS	해라체					
+으리까	EF		FS	합쇼체					
+으리까	EF		FS	합쇼체					
+으리니	EC		FS						
+으리니	EC		FS						
+으리니라	EF		FS	해라체		예스러움			
+으리다	EF		FS	하오체					
+으리다	EF		FS	하오체					
+으리라	EF		FS	해라체					
+으리라	EF		FS	해라체					
+으리로다	EF		FS	해라체					
+으리로다	EF		FS	해라체					
+으리만치	EC		FS						
+으리만큼	EC		FS					으리만치/EC	
+으리오	EF		FS						
+으마	EF		LQ|FS	해라체					*/VV
+으마	EC		NUL			방언	으면/EC		
+으만	EC		NUL			방언	으면/EC		
+으매	EC		FS						
+으멍	EC		NUL			방언	으면서/EC		
+으멘	EC		NUL			방언	으면/EC		
+으며	EC		FS						
+으며	EC		FS					으면서/EC	
+으면	EC		FS						
+으면	EC		FS						
+으면	EC		FS						
+으면	EC		FS						
+으면서	EC		FS						
+으면서	EC		FS						
+으모	EC		NUL			방언	으면/EC		
+으문	EC		NUL			방언	으면/EC		
+으므로	EC		FS						
+으민	EC		NUL			방언	으며/EC		
+으사	EC		FS			예스러움	으시어/EC		
+으사이다	EF		LQ|FS	합쇼체		예스러움			*/VV
+으세	EF		LQ|FS	하게체					*/VV
+으세요	EF		FS	해요체				으시어요/EF	
+으셔요	EF		FS				으시어요/EF	으시어요/EF	
+으소서	EF		FS	합쇼체					
+으시	EP		FS						
+으시	EC		NUL			방언	게/EC		
+으시	EF		NUL			방언	게/EF		
+으시다나	EF		NUL			방언	게나/EF		
+으시더	EF		NUL			방언	읍시다/EF		
+으시라	EF		LQ|FS	합쇼체		명령			*/VV
+으시압	EF		LQ|FS			명령			*/VV
+으시어요	EF		FS	해요체					
+으시이소	EF		NUL			방언	으십시오/EF		
+으십사	EF		LQ|FS	합쇼체					*/VV
+으십시다	EF		LQ|FS	합쇼체					*/VV
+으십시오	EF		LQ|FS	합쇼체					*/VV
+으오	EP		FS			예스러움			
+으오	EF		FS	하오체					
+으오니까	EF		FS	합쇼체		예스러움			
+으오리까	EF		FS	합쇼체		예스러움			
+으오리다	EF		FS	합쇼체					
+으오리다	EF		FS	합쇼체					
+으오리이까	EF		FS	합쇼체		예스러움			
+으오리이다	EF		FS	합쇼체		예스러움			
+으오이다	EF		FS	합쇼체		예스러움			
+으옵	EP		FS			예스러움			
+으옵나이까	EF		FS	합쇼체		예스러움			
+으옵나이다	EF		FS	합쇼체		예스러움			
+으옵니까	EF		FS	합쇼체		예스러움			
+으옵니다	EF		FS	합쇼체		예스러움			
+으옵디까	EF		FS	합쇼체	과거	예스러움&의문			
+으옵디다	EF		FS	합쇼체	과거	예스러움			
+으옵소서	EF		FS	합쇼체		예스러움			
+으옵시	EP		FS			예스러움			
+으와	ESC	으오/EP+아/EC	FS				으오/EP+아/EC		
+으와	ESF	으오/EP+아/EF	FS				으오/EP+아/EF		
+으외다	EF		NUL				으오이다/EF		
+으우	EF		FS	하오체					
+으워리	EF		LQ|FS	하게체					
+으워리	EF		LQ|FS	해라체					*/VV
+으월다	EF		NUL			방언	으리다/EF		
+으이	EF		FS	하게체					*/VA
+으이	EC		NUL			방언	으니/EC		
+으이	EF		NUL			방언	으니/EF		
+으이까	EC		NUL			방언	으니까/EC		
+으이께	EC		NUL			방언	으니까/EC		
+으이소	ESF	으시/EP+오/EF	NUL			방언	으시/EP+오/EF		
+으이소	EF		NUL			방언	으십시오/EF		
+은	ETM		LQ|FS		과거				*/VV
+은	ETM		LQ|FS						*/VV
+은	ETM		FS						*/VA
+은가	EF		FS	하게체			는가/EF		*/VA
+은가	EF		FS				는가/EF		*/VA
+은감	EF		FS	하게체			는감/EF		*/VA
+은걸	EF		FS	해체		구어	는걸/EF		*/VV
+은걸	EF		FS	해체		구어	는걸/EF		*/VA
+은고	EF		FS	해라체			는고/EF		*/VA
+은고	EF		FS	해라체			는고/EF		*/VA
+은교	EF		NUL			방언	은가요/EF		
+은께	EC		NUL			방언	으니까/EC		
+은데	EC		FS				는데/EC		*/VA
+은데	EF		FS	해체		감탄	는데/EF		*/VA
+은데	EF		FS				는데/EF		*/VA
+은뎁쇼	EF		FS	합쇼체			는뎁쇼/EF		*/VA
+은들	EC		FS						
+은바	EC		LQ|FS			문어	는바/EC		*/VV
+은바	EC		FS			문어	는바/EC		*/VA/으시/EP
+은배	EC		NUL			방언	는바/EC		
+은즉	EC		FS			예스러움			
+은즉슨	EC		NUL			강조	은즉/EC		
+은지	EC		FS				는지/EC		*/VA
+은지	EF		FS	해체			는지/EF		*/VA
+은지고	EF		FS	해라체		강조&예스러움&감탄	는지고/EF		*/VA
+은지고	EF		LQ|FS	해라체		강조&예스러움&감탄	는지고/EF		*/VV
+은지라	EC		FS			예스러움	는지라/EC		*/VA
+은지라	EC		LQ|FS						*/VV
+을	ETM		FS						
+을	ETM		FS						
+을값에	EC		NUL			방언	을망정/EC		
+을거나	EF		FS	해체		감탄			*/VV|었/EP|겠/EP
+을걸	EF		FS	해체		구어			
+을걸	EF		FS			구어			*/VV|었/EP
+을게	EF		LQ|FS	해체		구어			*/VV
+을까	EF		FS	해체					
+을까	EF		FS	해체					
+을깝쇼	EF		FS	합쇼체		예스러움			*/VV|었/EP
+을께	EF		LQ|FS	해체		구어&비표준	을게/EF		*/VV
+을꼬	EF		FS	해라체		예스러움			
+을꼬	EF		FS	해라체		예스러움			*/VV|었/EP
+을꾸마	EF		NUL			방언	으마/EF		
+을는지	EC		FS						
+을는지	EF		FS	하게체|해체					
+을는지	EF		FS	하게체|해체					
+을단댄	EC		NUL			방언	을진대/EC		
+을데라니	EF		FS	해체|해라체		감탄			*/VA
+을라	EF		FS	해라체					
+을라	EF		NUL			방언	을까/EF		
+을라	EC		NUL			방언	으려/EC		
+을라고	EF		FS						
+을라구	EC		NUL			방언	으려고/EC		
+을라꼬	EC		NUL			방언	으려고/EC		
+을라치면	EC		LQ|FS						*/VV
+을락	EC		FS						*/VV|었/EP
+을락	EC		NUL			방언	으려고/EC		
+을람더	EC		NUL			방언	으렵니다/EC		
+을래	EF		LQ|FS	해체					*/VV
+을래문	EC		NUL			방언	으려면/EC		
+을랜	EC		NUL			방언	으련/EC		
+을러니	EC		FS		회상	예스러움			
+을러라	EF		FS	해라체		예스러움			
+을런가	EF		FS	하게체		예스러움			
+을런고	EF		FS			예스러움&추측			
+을런지	EC		NUL			비표준	을는지/EC		
+을런지	EF		NUL	하게체|해체		비표준	을는지/EF		
+을런지	EF		NUL	하게체|해체		비표준	을는지/EF		
+을레	EF		FS	하게체		예스러움			
+을레라	EF		FS	해라체		예스러움		을레라/EF	
+을려고	EC		LQ|FS			비표준	으려고/EC		*/VV
+을려고	EF		LQ|FS	해체		비표준	으려고/EF		
+을려고	EC		LQ|FS			비표준	으려고/EC		*/VV
+을리라	EC		NUL			방언	을라/EC		
+을망정	EC		FS						
+을밖에	EF		FS	해체					
+을뿐더러	EC		FS						
+을사	EF		FS	해요체|하오체		예스러움&감탄			*/VA
+을새	EC		FS		진행	예스러움			
+을세	EF		FS	하게체					
+을세	EF		FS	하게체					
+을세	EF		FS	하게체		감탄			
+을세라	EC		NUL						
+을세라	EF		NUL	해라체					
+을세라	EF		NUL			감탄			
+을세말이지	EF		FS	해체					
+을소냐	EF		FS	해라체		예스러움&비표준	을쏘냐/EF		
+을손가	EF		FS	하게체		예스러움&비표준	을쏜가/EF		
+을수록	EC		FS						
+을시	EC		FS			예스러움			
+을시고	EF		FS			예스러움&감탄			*/VA|었/EP
+을싸록	EC		FS			비표준	을수록/EC		
+을쏘냐	EF		FS	해라체		예스러움			
+을쏜가	EF		FS	하게체		예스러움			
+을이만큼	EC		FS			비표준	으리만큼		
+을작시면	EC		FS			예스러움			*/VV|었/EP
+을지	EC		FS						
+을지	EF		FS	해체					
+을지나	EC		FS			예스러움			
+을지니	EC		FS			예스러움			
+을지니라	EF		FS	해라체		예스러움			
+을지라	EF		FS	해라체		예스러움			
+을지라도	EC		FS						
+을지로다	EF		FS	해라체		예스러움&감탄			
+을지며	EC		FS						
+을지어다	EF		FS	해라체		예스러움			*/VV|었/EP
+을지언정	EC		FS						
+을진대	EC		FS			예스러움			
+을진대는	EC		NUL			강조	을진대는/EC		
+을진댄	EC		NUL				을진대는/EC		
+을진저	EF		FS	해라체		예스러움			
+음	ETN		FS						
+음	EC		FS			구어	으면/EC		
+음성	EC		NUL			방언	으면서/EC		
+음세	EF		LQ|FS	하게체					*/VV
+음시롱	EC		NUL			방언	으면서/EC		
+음에랴	EF		FS						
+읍꿔니	EF		NUL			방언	습니다/EF		
+읍네꺼	EF		NUL			방언	습니까/EF		
+읍네더	EF		NUL			방언	습니다/EF		
+읍늰다	EF		FS	하오체		비표준	습늰다/EF		
+읍니까	EF		FS	합쇼체		비표준	습니까/EF		
+읍니꺄	EF		NUL			방언	습니까/EF		
+읍니껴	EF		NUL			방언	습니까/EF		
+읍니다	EF		FS	합쇼체	진행	비표준	습니다/EF		
+읍디까	EF		FS	하오체		비표준	습디까/EF		
+읍디꺼	EF		NUL			방언	습디까/EF		
+읍디껴	EF		NUL			방언	습디까/EF		
+읍디다	EF		FS	하오체		비표준	습디다/EF		
+읍디더	EF		NUL			방언	습디다/EF		
+읍디여	EF		NUL			방언	습디까/EF		
+읍딘다	EF		FS	하오체		비표준	습딘다/EF		
+읍딘저	EF		NUL			방언	습디까/EF		
+읍마	EF		NUL			방언	으마/EF		
+읍쇼	EF		NUL				읍시오/EF		
+읍시다	EF		LQ|FS	하오체					*/VV
+읍시더	EF		NUL			방언	읍시다/EF		
+읍시사	EF		LQ|FS	합쇼체		예스러움			*/VV
+읍시오	EF		LQ|FS	합쇼체		명령			*/VV
+읍죠	EF		NUL			비표준	습지요/EF		
+읍지요	EF		FS	합쇼체		비표준	습지요/EF		
+응께	EF		NUL			방언	으니까/EF		
+의	EC		NUL				으이/EC		
+이	EF		VO	하게체					*/VA
+이까	EF		NUL			방언	니까/EF		
+이껴	EF		NUL			방언	입니까/EF		
+이두룩새	EC		NUL			방언	을수록/EC		
+이라	EF		NUL			방언	너라/EF		
+이소	EF		NUL			방언	십시오/EF		
+이요	EF		NUL			방언	어요/EF		
+이웨	EF		NUL			방언	을세/EF		
+인교	EF		NUL			방언	습니까/EF		
+자	EC		NUL						*/VV
+자	EC		NUL						*/VV
+자	EC		NUL						*/VCP
+자	EC		NUL					고자/EC	*/VV
+자	EF		NUL	해라체					*/VV
+자고	EF		NUL	해체		강조			*/VV
+자고	EF		NUL	해체					*/VV
+자구	EC		NUL			방언	려고/EC		
+자구	EF		NUL			방언	려고/EF		
+자구	EF		NUL			강조&비표준	자고/EC		*/VV
+자구	EF		NUL			주장|의문|거부	자고/EF		
+자구	EF		NUL	해체		비표준	자고/EF		*/VV
+자꾸나	EF		NUL	해라체					*/VV
+자느니	EC		NUL						*/VV
+자니까	EF		NUL	해체		청유			*/VV
+자마	EF		NUL			방언	자꾸나/EF		
+자마자	EC		NUL						
+자며	EF		NUL			못마땅|확인			
+자면	EC		NUL						*/VV
+자면서	EF		NUL	해라체		확인			*/VV
+자무나	EF		NUL			방언	자꾸나/EF		
+자손	EC		NUL						*/VV
+자오	EP		NUL			예스러움			
+자옵	EP		NUL			예스러움			
+자옵시	EP		NUL			예스러움			
+잡	EP		NUL			예스러움			
+젠	EC		NUL			방언	러/EC		
+젠도	EC		NUL			방언	다고/EC		
+젠도	EF		NUL			방언	다고/EF		
+져	EC		NUL			방언	지/EC		
+져	EF		NUL			방언	지/EF		
+죠	EF		NUL				지요/EF		
+주	EC		NUL			방언	지/EC		
+주	EF		NUL			방언	지/EF		
+주마는	EC		NUL			방언	지마는/EC		
+쥬	EC		NUL			방언	게/EC		
+쥬	EF		NUL			방언	게/EF		
+지	EC		NUL						
+지	EC		NUL						
+지	EF		NUL	해체					
+지로	EC		NUL			방언	지/EC		
+지로	EF		NUL			방언	지/EF		
+지마는	EC		NUL						
+지만	EC		NUL				지마는/EC		
+지만서도	EC		NUL			비표준	지마는/EC		
+지만서도	EC		NUL						
+지비	EC		NUL			방언	지/EC		
+지비	EF		NUL			방언	지/EF		
+지요	EF		NUL						

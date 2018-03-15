@@ -1,0 +1,484 @@
+word	pos	pos2	phoneme	alt	alt2	tag
+가	JKS		VO			
+가	JKC		VO			
+같이	JKB		NUL			
+같이나	JSE	같이/JKB+나/JX	NUL			
+같이는	JSE	같이/JKB+는/JX	NUL			
+같이는야	JSE	같이/JKB+는/JX+야/JX	NUL		같이/JKB+는/JX	
+같이는커녕	JSE	같이/JKB+는/JX+커녕/JX	NUL			
+같이도	JSE	같이/JKB+도/JX	NUL			
+같이두	JSE	같이/JKB+두/JX	NUL	같이/JKB+도/JX		구어
+같이만	JSE	같이/JKB+만/JX	NUL			
+같인	JSE	같이/JKB+ㄴ/JX	NUL			
+게	JKB		VO	에게/JKB		
+게는	JSE	게/JKB+는/JX	NUL	에게/JKB+는/JX		
+고	JKQ		VO			
+고	JC		VO	이고/JC	과/JC	
+고	JX		VO	이고/JX	과/JX	
+과	JC		VO			
+과	JKB		VO			
+과는	JSE	과/JC+는/JX	VO			
+과는커녕	JSE	과/JC+는커녕/JX	VO			
+과도	JSE	과/JC+도/JX	VO			
+과두	JSE	과/JC+두/JX	VO	과/JC+도/JX		구어
+과를	JSE	과/JC+를/JKO	VO			
+과만	JSE	과/JC+만/JX	VO			
+과만은	JSE	과/JC+만/JX+은/JX	VO			
+과의	JSE	과/JC+의/JKG	VO			
+까지	JX		NUL			
+까지가	JSE	까지/JX+가/JKS	NUL			
+까지가	JSE	까지/JX+가/JKC	NUL			
+까지나	JSE	까지/JX+나/JX	NUL			
+까지나마	JSE	까지/JX+나마/JX	NUL			
+까지는	JSE	까지/JX+는/JX	NUL			
+까지는야	JSE	까지/JX+는/JX+야/JX	NUL			
+까지는커녕	JSE	까지/JX+는/JX+커녕/JX	NUL			
+까지도	JSE	까지/JX+도/JX	NUL			
+까지두	JSE	까지/JX+두/JX	NUL	까지/JX+도/JX		
+까지든지	JSE	까지/JX+든지/JX	NUL			
+까지라고	JSE	까지/JX+라고/JX	NUL			
+까지라고는	JSE	까지/JX+라고/JX+는/JX	NUL			
+까지라고만은	JSE	까지/JX+라고/JX+만은/JX	NUL			
+까지라도	JSE	까지/JX+라도/JX	NUL			
+까지로	JSE	까지/JX+로/JX	NUL			
+까지로나	JSE	까지/JX+로/JX+나/JX	NUL			
+까지로나마	JSE	까지/JX+로/JX+나마/JX	NUL			
+까지로는	JSE	까지/JX+로/JX+는/JX	NUL			
+까지로는야	JSE	까지/JX+로/JX+야/JX	NUL			
+까지로는커녕	JSE	까지/JX+로/JX+커녕/JX	NUL			
+까지로도	JSE	까지/JX+로/JX+도/JX	NUL			
+까지로두	JSE	까지/JX+로/JX+두/JX	NUL			구어
+까지로든	JSE	까지/JX+로/JX+든/JX	NUL			
+까지로든지	JSE	까지/JX+로/JX+든지/JX	NUL			
+까지로라서	JSE	까지/JX+로/JX+라서/JX	NUL			
+까지로라야	JSE	까지/JX+로/JX+라/JX+야/JX	NUL			
+까지로만	JSE	까지/JX+로/JX+만/JX	NUL			
+까지로만은	JSE	까지/JX+로/JX+만은/JX	NUL			
+까지로서	JSE	까지/JX+로/JX+서/JX	NUL			
+까지로써	JSE	까지/JX+로/JX+써/JX	NUL			
+까지를	JSE	까지/JX+를/JKO	NUL			
+까지만	JSE	까지/JX+만/JX	NUL			
+까지만은	JSE	까지/JX+만/JX+은/JX	NUL			
+까지만이라도	JSE	까지/JX+만/JX+이라도/JX	NUL			
+까지야	JSE	까지/JX+야/JX	NUL			
+까지야말로	JSE	까지/JX+야/JX+말로/JX	NUL			
+까지에	JSE	까지/JX+에/JKB	NUL			
+까지와	JSE	까지/JX+와/JKB	NUL			
+까지의	JSE	까지/JX+의/JKG	NUL			
+까지조차	JSE	까지/JX+조차/JX	NUL			
+까지조차도	JSE	까지/JX+조차/JX+도/JX	NUL			
+까진	JSE	까지/JX+ㄴ/JX	NUL			
+깨나	JX		NUL			
+꺼정	JX		NUL	까지/JX		구어|방언
+께	JKB		NUL			높임
+께서	JKS		NUL			높임
+께서	JKC		NUL			높임
+께서는	JSE	께서/JKS+는/JX	NUL			높임
+께선	JSE	께서/JKS+ㄴ/JX	NUL	께서/JKS+는/JX		높임
+께오서	JKS		NUL			높임
+께옵서	JKS		NUL			높임
+께옵서는	JSE	께옵서/JKS+는/JX	NUL			높임
+께옵서는야	JSE	께옵서/JKS+는/JX+야/JX	NUL			높임
+께옵서는커녕	JSE	께옵서/JKS+는/JX+커녕/JX	NUL			높임
+께옵서도	JSE	께옵서/JKS+도/JX	NUL			높임
+께옵서만	JSE	께옵서/JKS+만/JX	NUL			높임
+께옵서만은	JSE	께옵서/JKS+만/JX+은/JX	NUL			높임
+께옵서만이	JSE	께옵서/JKS+만/JX+이/JX	NUL			높임
+께옵선	JSE	께옵서/JKS+ㄴ/JX	NUL	께옵서/JKS+는/JX		높임
+ㄴ	JX		VO	는/JX		구어
+ㄴ들	JKB		VO			
+ㄴ커녕	JX		VO			
+나	JC		FS	이나/JC		
+나	JX		FS	이나/JX		
+나마	JX		FS	이나마/JX		
+는	JX		VO			
+는야	JSE	는/JX+야/JX	VO			
+는커녕	JSE	는/JX+커녕/JX	VO			
+니	JC		VO			
+니	JX		VO			
+니까	JX		VO			
+니깐	JX		VO			
+다	JX		VO			
+다가	JX		VO			
+다가는	JSE	다/JX+가/JX+는/JX	VO			
+다가도	JSE	다/JX+가/JX+도/JX	VO			
+다간	JSE	다/JX+가/JX+ㄴ/JX	VO			
+대로	JX		NUL			
+대로	JKB		NUL			
+대로가	JSE	대로/JX+가/JKS	NUL			
+대로가	JSE	대로/JX+가/JKC	NUL			
+대로는	JSE	대로/JX+는/JX	NUL			
+대로의	JSE	대로/JX+의/JKG	NUL			
+대루	JKB		NUL	대로/JKB		문어
+더러	JKB		NUL			
+더러는	JSE	더러/JKB+는/JX	NUL			
+더러만은	JSE	더러/JKB+만/JX+은/JX	NUL			
+도	JX		NUL			
+두	JX		NUL	도/JX		
+따라	JX		NUL			
+ㄹ	JKO		VO	를/JKO		
+ㄹ더러	JKB		VO			
+ㄹ랑	JX		VO			
+ㄹ루	JKB		VO			
+라	JKQ		VO			
+라고	JKQ		VO			
+라고까지	JSE	라고/JKQ+까지/JX	VO			
+라고까지는	JSE	라고/JKQ+까지/JX+는/JX	VO			
+라고는	JSE	라고/JKQ+는/JX	VO			
+라고만은	JSE	라고/JKQ+만/JX+은/JX	VO			
+라곤	JSE	라/JKQ+곤/JX	VO			
+라구	JKQ		VO			
+라기	JKQ		VO			
+라기보다는	JSE	라기/JKQ+보다/JX+는/JX	VO			
+라기보단	JSE	라기/JKQ+보다/JX+ㄴ/JX	VO			
+라네	JSE	라/JKQ+네/JX	VO			
+라는	JKQ	라/JKQ+는/JX	VO			
+라니	JSE	라/JKQ+니/JX	VO			
+라니까	JSE	라/JKQ+니/JX+까/JX	VO			
+라니깐	JSE	라/JKQ+니/JX+까/JX+ㄴ/JX	VO			
+라던가	JSE	라/JKQ+던가/JX	VO			
+라도	JSE	라/JKQ+도/JX	VO			
+라든가	JSE	라든/JKQ+가/JX	VO			
+라든지	JSE	라든/JKQ+지/JX	VO			
+라서	JSE	라/JKQ+서/JX	VO			
+라야	JSE	라/JKQ+야/JX	VO			
+라야만	JSE	라/JKQ+야/JX+만/JX	VO			
+라오	JSE	라/JKQ+오/JX	VO			
+라지	JSE	라/JKQ+지/JX	VO			
+란	JX		VO			
+랑	JC		VO	과/JC		
+랑	JX		VO	과/JX		
+랑	JKB		VO			
+랑은	JSE	랑/JC+은/JX	VO			
+로	JKB		VO|LQ	으로/JKB		
+로부터	JKB		VO|LQ	으로부터/JKB		
+로서	JKB		VO|LQ	으로서/JKB		
+로서는	JSE	로서/JKB+는/JX	VO|LQ	으로서/JKB+는/JX		
+로서의	JSE	로서/JKB+의/JKG	VO|LQ	으로서/JKB+의/JX		
+로써	JKB		VO|LQ	으로써/JKB		
+루	JKB		VO|LQ	으로/JKB		구어
+를	JKO		VO			
+마냥	JKB		NUL	만치/JKB		
+마다	JX		NUL			
+마다를	JSE	마다/JX+를/JKO	NUL			
+마다에게	JSE	마다/JX+에게/JK	NUL			
+마다의	JSE	마다/JX+의/JKG	NUL			
+마따나	JKB		NUL		같이/JKB	
+마저	JX		NUL			
+마저도	JSE	마저/JX+도/JX	NUL			
+마저라도	JSE	마저/JX+라도/JX	NUL			
+마저야	JSE	마저/JX+야/JX	NUL			
+만	JX		NUL			
+만도	JSE	만/JX+도/JX	NUL			
+만에	JSE	만/JX+에/JX	NUL			
+만으로	JSE	만/JX+으로/JKB	NUL			
+만으로는	JSE	만/JX+으로/JKB+는/JX	NUL			
+만으로도	JSE	만/JX+으로/JKB+도/JX	NUL			
+만으로라도	JSE	만/JX+으로/JKB+라도/JX	NUL			
+만으로써	JSE	만/JX+으로써/JKB	NUL			
+만으론	JSE	만/JX+으로/JKB+ㄴ/JX	NUL			
+만은	JSE	만/JX+은/JX	NUL			
+만을	JSE	만/JX+을/JKO	NUL			
+만의	JSE	만/JX+의/JKG	NUL			
+만이	JSE	만/JX+이/JKS	NUL			
+만이라도	JSE	만/JX+이/JKS+라도/JX	NUL			
+만치	JKB		NUL	만큼/JKB		
+만큼	JKB		NUL			
+만큼도	JSE	만큼/JKB+도/JX	NUL			
+만큼만	JSE	만큼/JKB+만/JX	NUL			
+만큼씩	JSE	만큼/JKB+씩/JX	NUL			
+만큼은	JSE	만큼/JKB+은/JX	NUL			
+만큼의	JSE	만큼/JKB+의/JKG	NUL			
+만큼이나	JSE	만큼/JKB+이나/JX	NUL			
+만큼이라도	JSE	만큼/JKB+이라도/JX	NUL			
+만큼이야	JSE	만큼/JKB+이야/JX	NUL			
+말고	JSE	말고/JX	NUL			
+말고는	JSE	말고/JX+는/JX	NUL			
+말고도	JSE	말고/JX+도/JX	NUL			
+며	JC	이며/JC	VO			
+며	JX	이며/JX	VO			
+밖에	JX		NUL			
+밖에는	JSE	밖에/JX+는/JX	NUL			
+밖에도	JSE	밖에/JX+도/JX	NUL			
+밖엔	JSE	밖에/JX+ㄴ/JX	NUL			
+보고	JKB		NUL	에게/JKB		구어
+보고는	JSE	보고/JKB+는/JX	NUL	에게/JKB+는/JX		구어
+보고도	JSE	보고/JKB+도/JX	NUL	에게/JKB+도/JX		구어
+보고만	JSE	보고/JKB+만/JX	NUL	에게/JKB+만/JX		구어
+보고만은	JSE	보고/JKB+만/JX+은/JX	NUL	에게/JKB+만/JX+은/JX		구어
+보고만이라도	JSE	보고/JKB+만/JX+이라도/JX	NUL	에게/JKB+만/JX+은/JX		구어
+보곤	JSE	보고/JKB+ㄴ/JX	NUL	에게/JKB+만/JX+이라도/JX		구어
+보구	JKB		NUL	에게/JKB		구어
+보구는	JSE	보구/JKB+는/JX	NUL	에게/JKB+는/JX		구어
+보구도	JSE	보구/JKB+도/JX	NUL	에게/JKB+도/JX		구어
+보구만	JSE	보구/JKB+만/JX+은/JX	NUL	에게/JKB+만/JX		구어
+보구만은	JSE	보구/JKB+만/JX+은/JX	NUL	에게/JKB+만/JX+은/JX		구어
+보구만이라도	JSE	보구/JKB+만/JX+이라도/JX	NUL	에게/JKB+만/JX+이라도/JX		구어
+보다	JKB		NUL			
+보다는	JSE	보다/JKB+는/JX	NUL			
+보다는야	JSE	보다/JKB+는/JX+야/JX	NUL		보다/JKB+는/JX	
+보다도	JSE	보다/JKB+도/JX	NUL			
+보다만	JSE	보다/JKB+만/JX	NUL			
+보다야	JSE	보다/JKB+야/JX	NUL			
+보단	JSE	보다/JKB+ㄴ/JX	NUL	보다/JKB+는/JX		구어
+보담	JKB	보담/JKB	NUL	보다/JKB		구어
+부터	JX		NUL			
+부터가	JSE	부터/JX+가/JKS	NUL			
+부터가	JSE	부터/JX+가/JKC	NUL			
+부터나마	JSE	부터/JX+나마/JX	NUL			
+부터는	JSE	부터/JX+는/JX	NUL			
+부터도	JSE	부터/JX+도/JX	NUL			
+부터라도	JSE	부터/JX+도/JX	NUL			
+부터를	JSE	부터/JX+를/JKO	NUL			
+부터만	JSE	부터/JX+만/JX	NUL			
+부터만은	JSE	부터/JX+만/JX+은/JX	NUL			
+부터서는	JSE	부터/JX+서/JX+는/JX	NUL			
+부터야말로	JSE	부터/JX+야말로/JX	NUL			
+부터의	JSE	부터/JX+의/JKG	NUL			
+부턴	JSE	부터/JX+ㄴ/JX	NUL	부터/JX+는/JX		
+뿐	JX		NUL			
+서	JKB		NUL			
+서부터	JKB		NUL	에서부터/JKB		
+아	JKV		NUL			
+야	JX		NUL			
+야	JKV		NUL			
+야말로	JX		VO			
+에	JKG		NUL	의/JKG		
+에	JKB		NUL			
+에게	JKB		NUL			
+에게가	JSE	에게/JKB+가/JKS	NUL			
+에게가	JSE	에게/JKB+가/JKC	NUL			
+에게까지	JSE	에게/JKB+까지/JX	NUL			
+에게까지는	JSE	에게/JKB+까지/JX+는/JX	NUL			
+에게까지도	JSE	에게/JKB+까지/JX+도/JX	NUL			
+에게까지만	JSE	에게/JKB+까지/JX+만/JX	NUL			
+에게까지만은	JSE	에게/JKB+까지/JX+만/JX+은/JX	NUL			
+에게까진	JSE	에게/JKB+까지/JX+ㄴ/JX	NUL		에게/JKB+까지/JX+는/JX	
+에게나	JSE	에게/JKB+나/JX	NUL			
+에게는	JSE	에게/JKB+는/JX	NUL			
+에게다	JSE	에게/JKB+다/JX	NUL			
+에게도	JSE	에게/JKB+도/JX	NUL			
+에게든	JSE	에게/JKB+든/JX	NUL			
+에게든지	JSE	에게/JKB+든/JX+지/JX	NUL			
+에게라도	JSE	에게/JKB+라도/JX	NUL			
+에게로	JSE	에게/JKB+로/JKB	NUL			
+에게로는	JSE	에게/JKB+로/JKB+는/JX	NUL			
+에게론	JSE	에게/JKB+로/JKB+ㄴ/JX	NUL		에게/JKB+로/JKB+는/JX	구어
+에게마다	JSE	에게/JKB+마다/JX	NUL			
+에게만	JSE	에게/JKB+만/JX	NUL			
+에게보다	JSE	에게/JKB+보다/JKB	NUL			
+에게보다는	JSE	에게/JKB+보다/JKB+는/JX	NUL			
+에게부터	JSE	에게/JKB+부터/JKB	NUL			
+에게서	JKB		NUL			
+에게서가	JSE	에게서/JKB+가/JX	NUL			
+에게서까지	JSE	에게서/JKB+까지/JX	NUL			
+에게서나	JSE	에게서/JKB+나/JX	NUL			
+에게서는	JSE	에게서/JKB+는/JX	NUL			
+에게서도	JSE	에게서/JKB+도/JX	NUL			
+에게서든지	JSE	에게서/JKB+든지/JX	NUL			
+에게서라도	JSE	에게서/JKB+든지/JX	NUL			
+에게서만	JSE	에게서/JKB+만/JX	NUL			
+에게서보다	JSE	에게서/JKB+보다/JX	NUL			
+에게서부터	JSE	에게서/JKB+보다/JX	NUL			
+에게서야	JSE	에게서/JKB+야/JX	NUL			
+에게서와	JSE	에게서/JKB+와/JC	NUL			
+에게서의	JSE	에게서/JKB+의/JKG	NUL			
+에게서처럼	JSE	에게서/JKB+처럼/JKB	NUL			
+에게선	JSE	에게서/JKB+ㄴ/JX	NUL	에게서/JKB+는/JX		구어
+에게야	JSE	에게/JKB+야/JX	NUL			
+에게와	JSE	에게/JKB+와/JC	NUL			
+에게의	JSE	에게/JKB+의/JKG	NUL			
+에게처럼	JSE	에게/JKB+처럼/JKB	NUL			
+에겐	JSE	에게/JKB+ㄴ/JX	NUL	에게/JKB+는/JX		구어
+에까지	JSE	에/JKB+까지/JX	NUL			
+에까지는	JSE	에/JKB+까지/JX+는/JX	NUL			
+에까지도	JSE	에/JKB+까지/JX+도/JX	NUL			
+에까지도두	JSE	에/JKB+까지/JX+두/JX	NUL	에/JKB+까지/JX+도/JX		
+에까지든지	JSE	에/JKB+까지/JX+든지/JX	NUL			
+에까지라도	JSE	에/JKB+까지/JX+라도/JX	NUL			
+에까지만	JSE	에/JKB+까지/JX+만/JX	NUL			
+에까지만은	JSE	에/JKB+까지/JX+만/JX+은/JX	NUL			
+에까진	JSE	에/JKB+까지/JX+ㄴ/JX	NUL	에/JKB+까지/JX+는/JX		
+에나	JSE	에/JKB+나/JX	NUL			
+에는	JSE	에/JKB+는/JX	NUL			
+에다	JKB		NUL			
+에다가	JKB		NUL			
+에다가는	JSE	에다가/JKB+는/JX	NUL			
+에다간	JSE	에다가/JKB+ㄴ/JX	NUL			
+에도	JSE	에/JKB+도/JX	NUL			
+에든	JSE	에/JKB+든/JX	NUL			
+에든지	JSE	에/JKB+든지/JX	NUL			
+에라도	JSE	에/JKB+라도/JX	NUL			
+에로	JSE	에/JKB+로/JX	NUL			
+에로의	JSE	에/JKB+로/JX+의/JKG	NUL			
+에를	JSE	에/JKB+를/JKO	NUL			
+에만	JSE	에/JKB+만/JX	NUL			
+에만은	JSE	에/JKB+만/JX+은/JX	NUL			
+에부터	JSE	에/JKB+부터/JX	NUL			
+에서	JKB		NUL			
+에서	JKS		NUL	가/JKS		
+에서	JKC			가/JKC		
+에서가	JSE	에서/JKB+가/JX	NUL			
+에서까지	JSE	에서/JKB+까지/JX	NUL			
+에서까지도	JSE	에서/JKB+까지/JX+도/JX	NUL			
+에서나	JSE	에서/JKB+나/JX	NUL			
+에서나마	JSE	에서/JKB+나마/JX	NUL			
+에서는	JSE	에서/JKB+는/JX	NUL			
+에서도	JSE	에서/JKB+도/JX	NUL			
+에서든지	JSE	에서/JKB+든지/JX	NUL			
+에서라도	JSE	에서/JKB+라도/JX	NUL			
+에서만	JSE	에서/JKB+만/JX	NUL			
+에서만도	JSE	에서/JKB+만/JX+도/JX	NUL			
+에서만이	JSE	에서/JKB+만/JX+이/JX	NUL			
+에서만큼	JSE	에서/JKB+만큼/JKB	NUL			
+에서만큼은	JSE	에서/JKB+만큼/JKB+은/JKB	NUL			
+에서보다	JSE	에서/JKB+보다/JKB	NUL			
+에서부터	JKB		NUL			
+에서부터는	JSE	에서부터/JKB+는/JX	NUL			
+에서부터도	JSE	에서부터/JKB+도/JX	NUL			
+에서부터라도	JSE	에서부터/JKB+라도/JX	NUL			
+에서부터만	JSE	에서부터/JKB+만/JX	NUL			
+에서부터만은	JSE	에서부터/JKB+만/JX+은/JX	NUL			
+에서야	JSE	에서/JKB+야/JX	NUL		에서/JKB	
+에서와	JSE	에서/JKB+와/JC	NUL			
+에서와	JSE	에서/JKB+와/JX	NUL			
+에서의	JSE	에서/JKB+의/JKG	NUL			
+에서조차	JSE	에서/JKB+조차/JX	NUL			
+에서처럼	JSE	에서/JKB+처럼/JKB	NUL			
+에선	JSE	에서/JKB+ㄴ/JX	NUL	에서/JKB+는/JX		
+에야	JSE	에/JKB+야/JX	NUL			
+에의	JSE	에/JKB+의/JKG        	NUL			
+에조차	JSE	에/JKB+조차/JX	NUL			
+에조차도	JSE	에/JKB+조차/JX+도/JX	NUL			
+엔	JSE	에/JKB+ㄴ/JX	NUL	에/JKB+는/JX		
+엔들	JSE	에/JKB+ㄴ/JX+들/JX	NUL			
+엘	JSE	에/JKB+ㄹ/JKO	NUL			
+엘랑	JSE	에/JKB+ㄹ랑/JKO	NUL			
+여	JKV		NUL			
+와	JC		VO	과/JC		
+와	JX		VO	과/JC		
+와	JKB		VO	과/JX		
+와는	JSE	와/JKB+는/JX	VO	과/JKB+는/JX		
+와도	JSE	와/JKB+도/JX	VO	과/JKB+도/JX		
+와만	JSE	와/JKB+만/JX	VO	과/JKB+만/JX		
+와만은	JSE	와/JKB+만/JX+은/JX	VO	과/JKB+만/JX+은/JX		
+와의	JSE	와/JKB+의/JKG	VO	과/JKB+의/JKG		
+와처럼	JSE	와/JKB+처럼/JX	VO	과/JKB+처럼/JX		
+요	JX		VO			
+으로	JKB		FS			
+으로까지	JSE	으로/JKB+까지/JX	FS			
+으로까지만은	JSE	으로/JKB+까지/JX+만/JX+은/JX	FS			
+으로나	JSE	으로/JKB+나/JX	FS			
+으로나든지	JSE	으로/JKB+나/JX+든지/JX	FS			
+으로는	JSE	으로/JKB+는/JX	FS			
+으로도	JSE	으로/JKB+도/JX	FS			
+으로든지	JSE	으로/JKB+든지/JX	FS			
+으로라도	JSE	으로/JKB+라도/JX	FS			
+으로만	JSE	으로/JKB+만/JX	FS			
+으로만은	JSE	으로/JKB+만/JX+은/JX	FS			
+으로부터	JKB		FS			
+으로부터는	JSE	으로부터/JKB+는/JX	FS			
+으로부터는커녕	JSE	으로부터/JKB+는/JX+커녕/JX	FS			
+으로부터도	JSE	으로부터/JKB+도/JX	FS			
+으로부터만	JSE	으로부터/JKB+만/JX	FS			
+으로부터만은	JSE	으로부터/JKB+만/JX+은/JX	FS			
+으로부터서는	JSE	으로부터/JKB+서/JX+는/JX	FS			
+으로부터서도	JSE	으로부터/JKB+서/JX+도/JX	FS			
+으로부터서만	JSE	으로부터/JKB+서/JX+만/JX	FS			
+으로부터의	JSE	으로부터/JKB+의/JKG	FS			
+으로서	JKB		FS			
+으로서가	JSE	으로서/JKB+가/JX	FS			
+으로서나	JSE	으로서/JKB+나/JX	FS			
+으로서는	JSE	으로서/JKB+는/JX	FS			
+으로서도	JSE	으로서/JKB+도/JX	FS			
+으로서든지	JSE	으로서/JKB+든지/JX	FS			
+으로서라도	JSE	으로서/JKB+라도/JX	FS			
+으로서만	JSE	으로서/JKB+만/JX	FS			
+으로서만도	JSE	으로서/JKB+만/JX+도/JX	FS			
+으로서만은	JSE	으로서/JKB+만/JX+은/JX	FS			
+으로서야	JSE	으로서/JKB+야/JX	FS			
+으로서의	JSE	으로서/JKB+의/JKG	FS			
+으로선	JSE	으로서/JKB+ㄴ/jX	FS			
+으로써	JKB		FS			
+으로써나	JSE	으로써/JKB+나/JX	FS			
+으로써는	JSE	으로써/JKB+는/JX	FS			
+으로써라도	JSE	으로써/JKB+라/JX+도/JX	FS			
+으로써만	JSE	으로써/JKB	FS			
+으로써야	JSE	으로써/JKB	FS			
+으로야	JSE	으로/JKB+야/JX	FS			
+으로의	JSE	으로/JKB+의/JKG	FS			
+으론	JSE	으로/JKB+ㄴ/JX	FS	으로/JKB+는/JX		구어
+으루	JKB		FS	으로/JKB		구어&방언
+은	JX		LQ|FS	는/JX		
+은커녕	JX		LQ|FS	는커녕/JX		
+을	JKO		LQ|FS	를/JKO		
+의	JKG		NUL			
+이	JKS		LQ|FS	가/JKS		
+이	JKC		LQ|FS	가/JKC		
+이고	JC		LQ|FS			
+이고	JX		LQ|FS			
+이나	JC		LQ|FS			
+이나	JX		LQ|FS			
+이나마	JX		LQ|FS			
+이니	JC		LQ|FS			
+이니	JX		LQ|FS			
+이던	JX		LQ|FS			
+이든	JX		LQ|FS			
+이든지	JX		LQ|FS			
+이라	JKQ		LQ|FS			
+이라고	JKQ		LQ|FS			
+이란	JX		LQ|FS			
+이랑	JC		LQ|FS	이와/JC		구어
+이랑	JX		LQ|FS	이와/JX		구어
+이랑	JKB		LQ|FS	이와/JKB		구어
+이랑은	JSE	이랑/JKB+은/JX	LQ|FS	이와/JKB+는/JX		구어
+이사	JX		LQ|FS	이야/JX		
+이서	JKS		LQ|FS			
+이서	JKC		LQ|FS			
+이시여	JKV		NUL			
+이야	JKV		LQ|FS			
+이야	JX		LQ|FS			
+이야말로	JX		LQ|FS			
+이여	JKV		NUL			
+일랑	JX		NUL	과/JKB+는/JX		구어
+일랑은	JSE	일랑/JX+은/JX	NUL	과/JKB+는/JX		구어
+조차	JX		NUL	마저/JX		
+조차가	JSE	조차/JX+가/JX	NUL	마저/JX+가/JX		
+조차도	JSE	조차/JX+도/JX	NUL	마저/JX+도/JX		
+조차를	JSE	조차/JX+를/JKO	NUL	마저/JX+를/JKO		
+조차의	JSE	조차/JX+의/JKG	NUL	마저/JX+의/JKG		
+처럼	JKB		NUL			
+처럼도	JSE	처럼/JKB+도/JX	NUL			
+처럼만	JSE	처럼/JKB+만/JX	NUL			
+처럼만은	JSE	처럼/JKB+만/JX+은/JX	NUL			
+처럼은	JSE	처럼/JKB+은/JX	NUL			
+처럼이라도	JSE	처럼/JKB+이라도/JX	NUL			
+처럼이야	JSE	처럼/JKB+이야/JX	NUL			
+치고	JX		NUL			
+치고는	JSE	치고/JX+는/JX	NUL			
+치구	JX		NUL			
+커녕	JX		NUL			
+커녕은	JSE	커녕/JX+은/JX	NUL			
+하고	JC		NUL	과/JC		구어
+하고	JX		NUL	과/JC		구어
+하고	JKB		NUL	과/JKB		구어
+하고	JKQ		NUL			구어
+하고가	JSE	하고/JKB+가/JKS	NUL			구어
+하고는	JSE	하고/JKB+는/JX	NUL			구어
+하고는커녕	JSE	하고/JKB+는/JX+커녕/JX	NUL			구어
+하고도	JSE	하고/JKB+도/JX	NUL			구어
+하고라도	JSE	하고/JKB+라도/JX	NUL			구어
+하고마저	JSE	하고/JKB+마저/JX	NUL			구어
+하고만	JSE	하고/JKB+만/JX	NUL			구어
+하고만은	JSE	하고/JKB+만/JX+은/JX	NUL			구어
+하고야	JSE	하고/JKB+야/JX	NUL			구어
+하고의	JSE	하고/JKB+의/JKG	NUL			구어
+하고조차	JSE	하고/JKB+조차/JX	NUL			구어
+하고조차도	JSE	하고/JKB+조차/JX+도/JX	NUL			구어
+하곤	JSE	하고/JKB+ㄴ/JX	NUL			구어
+하구	JC		NUL			구어
+하구	JX		NUL			구어
+하구	JKB		NUL			구어
+하듯	X					
+한테	JKB		NUL	에게/JKB		구어
+한테서	JKB		NUL	에게서/JKB		구어
