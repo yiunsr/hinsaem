@@ -6,14 +6,14 @@
 * Python 소스 
   * Apache License 2.0
 * 사전 리소스
- * CC BY-SA 2.0
-   * res/E.tsv  : 어미데이터
-   * res/NNG.tsv : 일반명사
-   * res/NNP.tsv : 고유명사
- * Apache License 2.0 
-   * res/N_.tsv : 기타체언
-   * res/NR.tsv : 수사
-   * res/J.tsv : 조사
+  * CC BY-SA 2.0
+    * res/E.tsv  : 어미데이터
+    * res/NNG.tsv : 일반명사
+    * res/NNP.tsv : 고유명사
+  * Apache License 2.0 
+    * res/N_.tsv : 기타체언
+    * res/NR.tsv : 수사
+    * res/J.tsv : 조사
 
    
 
