@@ -13,7 +13,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('test')
 
-hinsaem = Hinsaem()
+#hinsaem = Hinsaem()
 
 def setup_function():
     log.debug("==== START " + __package__ + "::" + __name__ + " ====")
