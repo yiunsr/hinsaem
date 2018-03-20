@@ -36,10 +36,13 @@ class PosE(PosBase):
     # 동일 Postag에 대해서는 
     _CONFIG_UNIQUE_CHECK = True
     
+<<<<<<< HEAD
     # 사전에 종결어미는 없지만 연결어미가 있는 경우 해당 어미를 
     # 종결어미로 취급한다. 
     _EC_EXPAND_TO_EF = True
     
+=======
+>>>>>>> branch 'master' of https://github.com/yiunsr/hinsaem.git
     _HANGUL_CODE_START = 44032
     _HANGUL_CODE_END = 55199
 
