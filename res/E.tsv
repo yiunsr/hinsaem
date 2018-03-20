@@ -962,6 +962,7 @@ word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
 십사	EF		VO|LQ	합쇼체			으십사/EF		
 십시다	EF		VO|LQ	합쇼체			으십시다/EF		
 십시오	EF		VO|LQ	합쇼체			으십시오/EF		
+ㅆ	EP		VO				았/EP		
 아	EC		YANG1						
 아	EC		YANG1						
 아	EC		YANG1						
@@ -1018,9 +1019,9 @@ word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
 어라	EF		EUM1			감탄	아라/EF		
 어라우	EC		NUL			방언	어요/EC		
 어사	EC		NUL			방언	어야/EC		
-어서	EC		YANG1				아서/EC		
-어서	EC		YANG1				아서/EC		
-어서	EC		YANG1				아서/EC		
+어서	EC		EUM1				아서/EC		
+어서	EC		EUM1				아서/EC		
+어서	EC		EUM1				아서/EC		
 어시요	ESF	었/EP+어요/EF	NUL			방언	었/EP+어요/EF		
 어야	EC		EUM1				아야/EC	아야지/EC	
 어야	EC		EUM1				아야/EC		
@@ -1141,19 +1142,19 @@ word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
 으냐고	EF		FS	해체					*/VA
 으냐고	EF		FS						*/VA
 으뇨	EF		FS	해라체		예스러움			*/VA
-으니	EC		FS						
-으니	EC		FS						
-으니	EC		FS						*/VA
-으니	EF		FS	하게체					*/VA
-으니	EF		FS	해라체					*/VA
-으니까	EC		FS			강조	으니/EC		
-으니까느루	EC		FS			강조&비표준	으니/EC		
-으니까는	EC		FS			강조			
+으니	EC		LQ|FS						
+으니	EC		LQ|FS						
+으니	EC		LQ|FS						*/VA
+으니	EF		LQ|FS	하게체					*/VA
+으니	EF		LQ|FS	해라체					*/VA
+으니까	EC		LQ|FS			강조	으니/EC		
+으니까느루	EC		LQ|FS			강조&비표준	으니/EC		
+으니까는	EC		LQ|FS			강조			
 으니까니	EC		NUL			방언	으니까/EC		
 으니깐	EC		NUL				으니까는/EC		
-으니라	EF		FS	해라체		예스러움			
-으니만치	EC		FS					으니만치/EC	
-으니만큼	EC		FS						
+으니라	EF		LQ|FS	해라체		예스러움			
+으니만치	EC		LQ|FS					으니만치/EC	
+으니만큼	EC		LQ|FS						
 으닝까	EC		NUL			방언	으니까/EC		
 으되	EC		NUL			예스러움			*/VCP|*/VCN|*/EP
 으되	EC		NUL						*/VCP|*/VCN|*/EP
