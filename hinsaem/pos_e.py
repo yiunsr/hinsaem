@@ -32,34 +32,38 @@ class PosE(PosBase):
     """
     GROUP_E = ["EC", "EF", "EP", "ETM", "ETN"]
     PRE_EOMI = ["EP"]
+    
+    _HANGUL_CODE_START = 44032
+    _HANGUL_CODE_END = 55199
 
     #: 어절Type
     class Eojel_Type(enum.Enum):
-        IRR_D = 1 # "ㄷ" 불규칙
-        IRR_S = 2 # "ㅅ" 불규칙
-        IRR_LEO = 3 # "러" 불규칙
-        IRR_LEU = 4 # "르" 불규칙
-        IRR_L = 5 # "ㄹ" 불규칙
-        IRR_H1 = 6 # "ㅎ" 불규칙 Case 1
-        IRR_H2 = 7 # "ㅎ" 불규칙 Case 2
-        IRR_EU = 8 # "으" 불규칙
-        IRR_B = 9 # "ㅂ" 불규칙
-        IRR_O = 10 # "오" 불규칙
-        IRR_U = 11 # "우"불규칙
+        IRR_D = 11 # "ㄷ" 불규칙
+        IRR_S = 12 # "ㅅ" 불규칙
+        IRR_LEO = 13 # "러" 불규칙
+        IRR_LEU = 14 # "르" 불규칙
+        IRR_L = 15 # "ㄹ" 불규칙
+        IRR_H1 = 16 # "ㅎ" 불규칙 Case 1
+        IRR_H2 = 17 # "ㅎ" 불규칙 Case 2
+        IRR_EU = 18 # "으" 불규칙
+        IRR_B = 19 # "ㅂ" 불규칙
+        IRR_O = 20 # "오" 불규칙
+        IRR_U = 21 # "우"불규칙
 
-        ABB_YEO = 21 # ㅕ(ㅣ+ㅓ) 축약
-        ABB_WA = 22 # ㅘ(ㅗ+ㅏ) 축약
-        ABB_WO = 23 # ㅝ(ㅜ+ㅓ) 축약
-        ABB_WAE = 24 # ㅙ(ㅚ+ㅓ) 축약
-        ABB_HAE = 25 # 해(하+여) 축약
-        ABB_ASPIRATE = 26 # ㅋ,ㅌ,ㅊ(하+ㄱ,ㄷ,ㅈ ) 축약
-        ABB_CHANH = 27 # 찮(-하지 않-) 축약
-        ABB_JANH = 28 # 찮(-하 않-) 축약
+        ABB_YEO = 31 # ㅕ(ㅣ+ㅓ) 축약
+        ABB_WA = 32 # ㅘ(ㅗ+ㅏ) 축약
+        ABB_WO = 33 # ㅝ(ㅜ+ㅓ) 축약
+        ABB_WAE = 34 # ㅙ(ㅚ+ㅓ) 축약
+        ABB_HAE = 35 # 해(하+여) 축약
+        ABB_ASPIRATE = 36 # ㅋ,ㅌ,ㅊ(하+ㄱ,ㄷ,ㅈ ) 축약
+        ABB_CHANH = 37 # 찮(-하지 않-) 축약
+        ABB_JANH = 38 # 찮(-하 않-) 축약
 
-        DROPOUT_A = 31 # 동음탈락 ㅏ
-        DROPOUT_EO = 32 # 동음탈락 ㅓ
-        DROPOUT_HA = 33 # "하" 탈락 현상  "어간안울림받침(ㄱ,ㅂ,ㅅ) + 어미""지"", ""건대"", ""다"""
+        DROPOUT_A = 41 # 동음탈락 ㅏ
+        DROPOUT_EO = 42 # 동음탈락 ㅓ
+        DROPOUT_HA = 43 # "하" 탈락 현상  "어간안울림받침(ㄱ,ㅂ,ㅅ) + 어미""지"", ""건대"", ""다"""
         
+        FINAL_SOUND = 51 # 받침으로 시작하는 어미
 
 
 
@@ -260,6 +264,22 @@ class PosE(PosBase):
         return candiate_list_with_ep
 
     def _endswithES(self, new_eojeol, mark, pos_filter):
+        """
+        pos_filter 로 전달된 어미로 종결하는 경우의 case 를 뽑는다. 
+
+        Args :
+            new_eojeol (str) : 검사하려는 어절
+            mark (str) : 문장기호
+            pos_filter : 종결하는 형태소 태그
+        Returns:
+            [ left_word, postag_tuple, mark, posinfo] or None
+            left_word : 뒷 조사를 제외한 부분
+            postag_tuple : postag tuple
+            mark : 문장기호, 없으면 None
+            posinfo : 해당 형태소의 meta 정보
+            
+        """
+        
         last_char = new_eojeol[-1]
         
 
@@ -277,101 +297,124 @@ class PosE(PosBase):
         #최장 음절을 가정하고 최장음절부터 겹치는 조사가 있는지 검사한다.
         #어미만으로 이루어진 어절은 없기 때문에 어절수-1을 어미 조사로 생각한다.
         eomi_list = self._eomi_list
-        eogan_eomi_list = []
+        
+        # 여러 가능성을 고려한 어간, 어미 조합 분리
+        # [ [분리index, 전체어절, 어간후보, 어미후보], [분리index, 전체어절, 어간후보, 어미후보], ... ]
+        eogan_eomi_list = [] 
         for index in range(0, len(new_eojeol) + 1):
             left_word = new_eojeol[:index]
             candidate_eomi = new_eojeol[index:]
-            if left_word != "" and not regular_fail:
+            if left_word != "" and not regular_fail and candidate_eomi != "":
                 eogan_eomi_list.append([index, new_eojeol, left_word, candidate_eomi])
-            irregular_eogan_eomi_list = self._find_exception_case(index, new_eojeol, left_word, candidate_eomi, pos_filter)
-            if len(irregular_eogan_eomi_list) > 0:
-                eogan_eomi_list.extend(irregular_eogan_eomi_list)
+            
+            ## 용언 불규칙, 모음축약 현상,  받침으로 시작하는 어미처리
+            exception_case_eogan_eomi_list = self._find_exception_case(index, new_eojeol, left_word, candidate_eomi, pos_filter)
+            if len(exception_case_eogan_eomi_list) > 0:
+                eogan_eomi_list.extend(exception_case_eogan_eomi_list)
 
         for eogan_eomi_item in eogan_eomi_list:
             index = eogan_eomi_item[0]
-
+            
             new_eojeol = eogan_eomi_item[1]
             left_word = eogan_eomi_item[2]
             right_word = eogan_eomi_item[3]
             
+            new_candiate_list = self._get_candiate_info_list(index, new_eojeol, left_word, right_word, mark,pos_filter )
+            if len(new_candiate_list) > 0 : 
+                candiate_list.extend(new_candiate_list)
             
-            if left_word == "":
-                # 활용된 상태의 어간
-                last_eumjeol_eogan = ""
-                # 활용되기전의 원래 어간
-                org_last_eumjeol_eogan = ""
-            else:
-                # last_eumjeol_eogan = left_word[-1]
-                # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제약을 확인해야 한다.
-                # 불규칙에 대해서 불규칙이 반영된 형태로 
-                last_eumjeol_eogan = new_eojeol[index-1]
-                org_last_eumjeol_eogan = left_word[-1]
-            candiate_info = None
-
-            # 받침으로 시작하는 어미
-            # 어미 추정 앞 음절이 받침이라고 생각한다. 
-            (cho, jung, jong) = parse_eumjeol(org_last_eumjeol_eogan)
-            if jong in self._eomi_jungjong_start:
-                right_word = jong + right_word
-                #last_eumjeol_eogan = build_eumjeol(cho, jung, "")
-                # 불규칙, 축약이 적용된 어미를 기준으로 
-                last_eumjeol_eogan = change_jaso(left_word[-1], None, None, "")
-                left_word = left_word[:index-1] + last_eumjeol_eogan
-                if right_word in eomi_list:
-                    for posinfo in eomi_list[right_word]:
-                        if check_phoneme_restriction(last_eumjeol_eogan, posinfo["phoneme"]):
-                            postag_tuple = self._pos_select(right_word, posinfo["pos"], posinfo["pos2"])
-                            # 추출하려는 형태소가 아니면 패스
-                            if postag_tuple[-1][1] not in pos_filter:
-                                continue
-                            candiate_info = [left_word, postag_tuple, mark, posinfo]
-                            candiate_list.append(candiate_info)
-
-            # 받침으로 시작하는 조사가 매칭되었을 때는
-            # 음절로 시작하는 조사가 매칭될 수 있는 경우가 많기 때문에
-            # 그냥 무시한다. 예외 Case 가 있는지 확인 필요
-            # "들렀어"에서 예외 발생(들러+ㅆ어/EP 로 분석함 )
-            if candiate_info:
-                continue
-
-            new_eojeol = eogan_eomi_item[1]
-            left_word = eogan_eomi_item[2]
-            right_word = eogan_eomi_item[3]
-            
-            
-            if left_word == "":
-                last_eumjeol_eogan = ""
-                org_last_eumjeol_eogan = ""
-            else:
-                # last_eumjeol_eogan = left_word[-1]
-                # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제액을 확인해야 한다.
-                # 불규칙에 대해서 불규칙이 반영된 형태로 
-                last_eumjeol_eogan = new_eojeol[index-1]
-                org_last_eumjeol_eogan = left_word[-1]
-
-            if right_word in eomi_list:
-                for posinfo in eomi_list[right_word]:
-                    if check_phoneme_restriction(last_eumjeol_eogan, posinfo["phoneme"]):
-                        postag_tuple = self._pos_select(right_word, posinfo["pos"], posinfo["pos2"])
-                        # 추출하려는 형태소가 아니면 패스
-                        if postag_tuple[-1][1] not in pos_filter:
-                            continue
-                        candiate_info = [left_word, postag_tuple, mark, posinfo]
-                        candiate_list.append(candiate_info)
-
+#             if left_word == "":
+#                 last_eumjeol_eogan = ""
+#                 org_last_eumjeol_eogan = ""
+#             else:
+#                 # last_eumjeol_eogan = left_word[-1]
+#                 # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제액을 확인해야 한다.
+#                 # 불규칙에 대해서 불규칙이 반영된 형태로 
+#                 last_eumjeol_eogan = new_eojeol[index-1]
+#                 org_last_eumjeol_eogan = left_word[-1]
+#             
+#             if right_word in eomi_list:
+#                 for posinfo in eomi_list[right_word]:
+#                     if check_phoneme_restriction(last_eumjeol_eogan, posinfo["phoneme"]):
+#                         postag_tuple = self._pos_select(right_word, posinfo["pos"], posinfo["pos2"])
+#                         # 추출하려는 형태소가 아니면 패스
+#                         if postag_tuple[-1][1] not in pos_filter:
+#                             continue
+#                         candiate_info = [left_word, postag_tuple, mark, posinfo]
+#                         candiate_list.append(candiate_info)
+                        
         return candiate_list
+    
+    
+    def _get_candiate_info_list(self, index, eojeol, candidate_eogan, candidate_eomi, mark, pos_filter):
+        """
+        전달된 어간후보, 어미후가가 적당한 후보가 맞는지 확인 하고 맞으면 
+        candidate_info 를 리턴한다. 
+
+        Args :
+            candidate_eogan (str) : 검사하려는 어간후보
+            candidate_eomi (str) : 검사하려는 어미 후보
+            pos_filter : 어미후보의 가능한 pos 리스트
+            mark : 문장기호(없는 경우 None)
+        Returns:
+            [ left_word, postag_tuple, mark, posinfo] or None
+            left_word : 뒷 조사를 제외한 부분
+            postag_tuple : postag tuple
+            mark : 문장기호(없는 경우 None)
+            posinfo : 해당 형태소의 meta 정보
+        """
+        
+        candiate_list = []
+        
+        
+        
+        if candidate_eogan == "":
+            last_eumjeol_eogan = ""
+        else:
+            # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제액을 확인해야 한다.
+            eumjeol_int = ord(candidate_eomi[0])
+            if self._HANGUL_CODE_START > eumjeol_int or self._HANGUL_CODE_END < eumjeol_int:
+                # 받침으로 시작하는 어절과 결합하는 어미의 경우, 변경되기 전의 어미를 기준으로 확인 한다. 
+                last_eumjeol_eogan = candidate_eogan[-1]
+            else:
+                # 불규칙에 대해서 불규칙이 반영된 형태로 
+                last_eumjeol_eogan = eojeol[index-1]
+        
+        if candidate_eomi in self._eomi_list:
+            for posinfo in self._eomi_list[candidate_eomi]:
+                if check_phoneme_restriction(last_eumjeol_eogan, posinfo["phoneme"]):
+                    postag_tuple = self._pos_select(candidate_eomi, posinfo["pos"], posinfo["pos2"])
+                    # 추출하려는 형태소가 아니면 패스
+                    if postag_tuple[-1][1] not in pos_filter:
+                        continue
+                    candiate_info = [candidate_eogan, postag_tuple, mark, posinfo]
+                    candiate_list.append(candiate_info)
+        
+        # MARK: _get_candiate_info_list
+        # FIXME:  동일 형태소에 candiate_list 에 추가하는 문제 수정 필요
+        return candiate_list 
 
     def _find_exception_case(self, index, eojeol, candidate_eogan, candidate_eomi, pos_filter):
-        """ 용언 불규칙과 모음축약 현상 처리"""
+        """ 용언 불규칙, 모음축약 현상,  받침으로 시작하는 경우 처리"""
         eogan_eomi_list = []
+        
+        ## 용언 불규칙
         irregular_eogan_eomi_list = self._find_irregular(eojeol, candidate_eogan, candidate_eomi, pos_filter)
         for eogan_eomi in irregular_eogan_eomi_list:
             eogan = eogan_eomi[0]
             eomi = eogan_eomi[1]
             eogan_eomi_list.append([index, eojeol, eogan, eomi])
-
+        
+        ## 모음축약
         abbreviation_eogan_eomi_list = self._find_abbreviation(eojeol, candidate_eogan, candidate_eomi, pos_filter)
         for eogan_eomi in abbreviation_eogan_eomi_list:
+            eogan = eogan_eomi[0]
+            eomi = eogan_eomi[1]
+            eogan_eomi_list.append([index, eojeol, eogan, eomi])
+            
+        ## 받침으로 시작하는 경우
+        final_sound_eogan_eomi_list = self._find_final_sound_eogan(eojeol, candidate_eogan, candidate_eomi, pos_filter)
+        for eogan_eomi in final_sound_eogan_eomi_list:
             eogan = eogan_eomi[0]
             eomi = eogan_eomi[1]
             eogan_eomi_list.append([index, eojeol, eogan, eomi])
@@ -742,3 +785,48 @@ class PosE(PosBase):
 
         return eogan_eomi_list
 
+    def _find_final_sound_eogan(self, eojeol, candidate_eogan, candidate_eomi, pos_filter):
+        """끝소리(받침)으로 시작하는 원어간, 원어미를 분리한다.
+        
+
+        Args :
+            eoejl : 어절, 현재는 이용되지 않는다.
+            candidate_eogan : 어간후보
+            candidate_eomi : 어미후보
+            pos_filter : 가능한 형태소 품사
+
+        Returns : 
+            [[eogan1, eomi1], [eogan2, eomi2], ...]
+        """
+        eogan_eomi_list = []
+        index = len(candidate_eogan)
+        
+        if candidate_eogan == "":
+            return eogan_eomi_list
+            
+            
+        eumjeol_int = ord(candidate_eogan[0])
+        if self._HANGUL_CODE_START > eumjeol_int or self._HANGUL_CODE_END < eumjeol_int:
+            # 받침으로 시작하는 어절과 결합하는 어미의 경우, 변경되기 전의 어미를 기준으로 확인 한다. 
+            org_last_eumjeol_eogan = candidate_eogan[0]
+        else:
+            # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제약을 확인해야 한다.
+            # 불규칙에 대해서 불규칙이 반영된 형태로 
+            org_last_eumjeol_eogan = candidate_eogan[-1]
+            candiate_info = None
+
+        # 받침으로 시작하는 어미
+        # 어미 추정 앞 음절이 받침이라고 생각한다. 
+        (_,  _, jong) = parse_eumjeol(org_last_eumjeol_eogan)
+        
+        if jong in self._eomi_jungjong_start:
+            new_candidate_eomi = jong + candidate_eomi
+            #last_eumjeol_eogan = build_eumjeol(cho, jung, "")
+            # 불규칙, 축약이 적용된 어미를 기준으로 
+            last_eumjeol_eogan = change_jaso(candidate_eogan[-1], None, None, "")
+            new_candidate_eogan = candidate_eogan[:index-1] + last_eumjeol_eogan
+            eogan_eomi_list.append([new_candidate_eogan, new_candidate_eomi, self.Eojel_Type.FINAL_SOUND])
+            
+        
+        return eogan_eomi_list
+        
