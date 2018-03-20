@@ -34,7 +34,7 @@ class PosBase(object):
                 postag_list.append((singleword, pos))
         else:
             postag_list.append((word, pos))
-        return postag_list
+        return tuple(postag_list)
 
     @staticmethod
     def pool_func_wrap(class_name, func_name, param_dict):

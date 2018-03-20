@@ -33,6 +33,9 @@ class PosE(PosBase):
     GROUP_E = ["EC", "EF", "EP", "ETM", "ETN"]
     PRE_EOMI = ["EP"]
     
+    # 동일 Postag에 대해서는 
+    _CONFIG_UNIQUE_CHECK = True
+    
     _HANGUL_CODE_START = 44032
     _HANGUL_CODE_END = 55199
 
@@ -203,11 +206,12 @@ class PosE(PosBase):
         Args :
             eojeol (str) : 검사하려는 어절
         Returns:
-            [ left_word, word, mark ] or None
-            left_word : 뒷 조사를 제외한 부분
-            word : 어미로 추정되는 단어+형태소
+            [ left_word, postuple_list, mark, metadata ] or None
+            left_word : 어미 추정무
+            postuple_list :   [(어미1, pos1), (어미2, pos2), ... ]
             mark : 문장기호, 없으면 None
-            ex) ["달리", "다/EF, "."]
+            metadata : 해당 postuple의 정보
+            ex) [['빠르', [('고', 'EC')], None, {'pos': 'EC', 'pos2': '', 'phoneme': 'NUL'}], ['빠르', [('고', 'EC')], None, {'pos': 'EC', 'pos2': '', 'phoneme': 'NUL'}], .... ]
         """
         last_char = eojeol[-1]
 
@@ -238,12 +242,12 @@ class PosE(PosBase):
         
         return candiate_list_with_ep2
 
-    def _endswithES(self, new_eojeol, mark, pos_filter):
+    def _endswithES(self, eojeol, mark, pos_filter):
         """
         pos_filter 로 전달된 어미로 종결하는 경우의 case 를 뽑는다. 
 
         Args :
-            new_eojeol (str) : 검사하려는 어절
+            eojeol (str) : 검사하려는 어절
             mark (str) : 문장기호
             pos_filter : 종결하는 형태소 태그
         Returns:
@@ -254,7 +258,7 @@ class PosE(PosBase):
             posinfo : 해당 형태소의 meta 정보
             
         """
-        last_char = new_eojeol[-1]
+        last_char = eojeol[-1]
 
         #### 마지막 어절의 음절이 어미마지막 음절리스트에 있는지 확인한다. 
         # 없는 경우, 규칙활용으로는 없다는 것이다. 
@@ -271,32 +275,45 @@ class PosE(PosBase):
         # 여러 가능성을 고려한 어간, 어미 조합 분리
         # [ [분리index, 전체어절, 어간후보, 어미후보], [분리index, 전체어절, 어간후보, 어미후보], ... ]
         eogan_eomi_list = [] 
-        for index in range(0, len(new_eojeol) + 1):
-            left_word = new_eojeol[:index]
-            candidate_eomi = new_eojeol[index:]
-            if left_word != "" and not regular_fail and candidate_eomi != "":
-                eogan_eomi_list.append([index, new_eojeol, left_word, candidate_eomi, left_word[-1]])
+        for index in range(0, len(eojeol) + 1):
+            eogan = eojeol[:index]
+            eomi = eojeol[index:]
+            if eogan != "" and not regular_fail and eomi != "":
+                eogan_eomi_list.append([index, eojeol, eogan, eomi, eogan[-1]])
             
             ## 용언 불규칙, 모음축약 현상,  받침으로 시작하는 어미처리
-            exception_case_eogan_eomi_list = self._find_exception_case(index, new_eojeol, left_word, candidate_eomi, pos_filter)
+            exception_case_eogan_eomi_list = self._find_exception_case(index, eojeol, eogan, eomi, pos_filter)
             if len(exception_case_eogan_eomi_list) > 0:
                 eogan_eomi_list.extend(exception_case_eogan_eomi_list)
 
         for eogan_eomi_item in eogan_eomi_list:
             index = eogan_eomi_item[0]
+            #eojeol = eogan_eomi_item[1]
+            eogan = eogan_eomi_item[2]
+            eomi = eogan_eomi_item[3]
+            last_eumjeol_eogan = eogan_eomi_item[4]
             
-            new_eojeol = eogan_eomi_item[1]
-            left_word = eogan_eomi_item[2]
-            right_word = eogan_eomi_item[3]
-            
-            new_candiate_list = self._get_candiate_info_list(index, new_eojeol, left_word, right_word, mark,pos_filter )
+            new_candiate_list = self._get_candiate_info_list(index, eojeol, eogan, eomi, last_eumjeol_eogan, mark,pos_filter )
             if len(new_candiate_list) > 0 : 
                 candiate_list.extend(new_candiate_list)
-     
-        return candiate_list
+            
+        if self._CONFIG_UNIQUE_CHECK == False:
+            return candiate_list
+        
+        ## 중복된 항목 제거
+        ## 어간, 어미의 postuple 과 meta 정보가 동일할 경우 동일 정보로 본다. 
+        candiate_list_set = set({})
+        ret_candiate_list = []
+        for item in candiate_list:
+            # set 을 만들 때 list 나 dict 의 경우 사용 불가능 하므로 dict 을 된 정보는 정렬된 tuple 로 변경했다. 
+            postuple_and_meta = (item[0], item[1], tuple(sorted(tuple(item[3].items()))) )
+            if postuple_and_meta in candiate_list_set:
+                continue
+            candiate_list_set.add(postuple_and_meta)
+            ret_candiate_list.append(item)
+        return ret_candiate_list
     
-    
-    def _get_candiate_info_list(self, index, eojeol, candidate_eogan, candidate_eomi, mark, pos_filter):
+    def _get_candiate_info_list(self, index, eojeol, candidate_eogan, candidate_eomi, last_eumjeol_eogan, mark, pos_filter):
         """
         전달된 어간후보, 어미후가가 적당한 후보가 맞는지 확인 하고 맞으면 
         candidate_info 를 리턴한다. 
@@ -315,18 +332,6 @@ class PosE(PosBase):
             posinfo : 해당 형태소의 meta 정보
         """
         candiate_list = []
-        
-        if candidate_eogan == "":
-            last_eumjeol_eogan = ""
-        else:
-            # 변경되는 어간 형태에 대해서는 변경된 어간 자체로 phoneme 제액을 확인해야 한다.
-            eumjeol_int = ord(candidate_eomi[0])
-            if self._HANGUL_CODE_START > eumjeol_int or self._HANGUL_CODE_END < eumjeol_int:
-                # 받침으로 시작하는 어절과 결합하는 어미의 경우, 변경되기 전의 어미를 기준으로 확인 한다. 
-                last_eumjeol_eogan = candidate_eogan[-1]
-            else:
-                # 불규칙에 대해서 불규칙이 반영된 형태로 
-                last_eumjeol_eogan = eojeol[index-1]
         
         if candidate_eomi in self._eomi_list:
             for posinfo in self._eomi_list[candidate_eomi]:
@@ -390,10 +395,10 @@ class PosE(PosBase):
             pos_filter : 가능한 형태소 품사
         
         Returns :
-            [[index1, eojeol1, eogan1, eomi1, last_eumjeol1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol2, eojel_type2], ...]
+            [[index1, eojeol1, eogan1, eomi1, last_eumjeol_eogan1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol_eogan2, eojel_type2], ...]
             eogan1, eogan2 : 어간
             eomi1, eomi2 : 어미
-            last_eumjeol1, last_eumjeol2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
+            last_eumjeol_eogan1, last_eumjeol_eogan2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
             eojel_type1, eojel_type2 : 어간, 어미 사이의 관계(불규칙 조건 같은 것)
 
          용언 불규칙 처리 방법
@@ -460,7 +465,7 @@ class PosE(PosBase):
         if last_eumjeol_eogan in self._LAST_EUMJEOL_IRR_D and eomi_cho == u"ㅇ":
             eogan = candidate_eogan[:-1] + change_jaso(last_eumjeol_eogan, None, None, u"ㄷ")
             eomi = candidate_eomi
-            eogan_eomi_list.append([index, eojeol, eogan, candidate_eomi, eogan[-1], self.Eojel_Type.IRR_D])
+            eogan_eomi_list.append([index, eojeol, eogan, candidate_eomi, candidate_eogan[-1], self.Eojel_Type.IRR_D])
 
         # "ㄹ" 불규칙("ㄹ" 탈락)
         # 어간 끝소리 "ㄹ" + 어미 "ㄴ","ㄹ","ㅂ","오","시" 어미를 만나 어간 ㄹ 탈란
@@ -602,10 +607,10 @@ class PosE(PosBase):
             pos_filter : 가능한 형태소 품사
 
         Returns :
-            [[index1, eojeol1, eogan1, eomi1, last_eumjeol1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol2, eojel_type2], ...]
+            [[index1, eojeol1, eogan1, eomi1, last_eumjeol_eogan1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol_eogan2, eojel_type2], ...]
             eogan1, eogan2 : 어간
             eomi1, eomi2 : 어미
-            last_eumjeol1, last_eumjeol2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
+            last_eumjeol_eogan1, last_eumjeol_eogan2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
             eojel_type1, eojel_type2 : 어간, 어미 사이의 관계(불규칙 조건 같은 것)
         """
         
@@ -770,10 +775,10 @@ class PosE(PosBase):
             pos_filter : 가능한 형태소 품사
 
         Returns :
-            [[index1, eojeol1, eogan1, eomi1, last_eumjeol1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol2, eojel_type2], ...]
+            [[index1, eojeol1, eogan1, eomi1, last_eumjeol_eogan1, eojel_type1 ], [index2, eojeol2, eogan2, eomi2, last_eumjeol_eogan2, eojel_type2], ...]
             eogan1, eogan2 : 어간
             eomi1, eomi2 : 어미
-            last_eumjeol1, last_eumjeol2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
+            last_eumjeol_eogan1, last_eumjeol_eogan2 : 음운 조건을 확인해야 하는 어간의 마지막 음절
             eojel_type1, eojel_type2 : 어간, 어미 사이의 관계(불규칙 조건 같은 것)
         """
         eogan_eomi_list = []
@@ -829,7 +834,7 @@ class PosE(PosBase):
                 # [new_left_word] 가 더해지는 이유는 용언 불규칙 때문에 
                 # 뒤의 형태소는 같지만 new_left_word 가 다른 경우가 있기 때문에 
                 # 이 형태를 중복으로 처리하면 안되기 때문이다. 
-                duplicated_check_key = [new_left_word] + postage_tuple_ep + postag_tuple
+                duplicated_check_key = (new_left_word,) + postage_tuple_ep + postag_tuple
                 new_postag_tuple = postage_tuple_ep + postag_tuple
                 
                 ## 복합어미 때문에 중복 될 수 있으므로 제거 한다.
