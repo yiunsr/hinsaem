@@ -30,7 +30,7 @@ def test_0001_e():
 def test_0002_e():
     """ 어미 검사 """    
     pos_list = pos_E.endswithE(u"코")
-    assert pos_list is None, u"명사의 경우 None"
+    assert pos_list == [], u"명사의 경우 []"
 
     # 문장 종결부호가 없기 때문에 /EF는 문가능하다. 
     pos_list = pos_E.endswithE(u"빠르고")
