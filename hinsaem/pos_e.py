@@ -579,8 +579,7 @@ class PosE(PosBase):
         if last_eumjeol_eogan in self._LAST_EUMJEOL_IRR_EU or candidate_eogan in self._LAST_EUMJEOL_IRR_EU_LEU:
             eogan = candidate_eogan[:-1] + change_jaso(last_eumjeol_eogan, None, "ㅡ", "")
             eomi = change_jaso(last_eumjeol_eogan, "ㅇ", eogan_jung, eogan_jong) + candidate_eomi
-            last_eumjeol_eogan = change_jaso(candidate_eogan[-1], None, None, u"")
-            eogan_eomi_list.append([index, eojeol, eogan, eomi, last_eumjeol_eogan, self.Eojel_Type.IRR_EU])
+            eogan_eomi_list.append([index, eojeol, eogan, eomi, candidate_eogan[-1], self.Eojel_Type.IRR_EU])
             eu_check = True
 
         # "러" 불규칙 : 어간 "르"가 어미 "-어/-어서"의 "-어"가 "-러"로 바뀌는 활용 형식
