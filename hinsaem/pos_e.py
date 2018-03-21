@@ -301,7 +301,7 @@ class PosE(PosBase):
             eomi = eogan_eomi_item[3]
             last_eumjeol_eogan = eogan_eomi_item[4]
             
-            new_candiate_list = self._get_candiate_info_list(index, eojeol, eogan, eomi, last_eumjeol_eogan, mark,pos_filter )
+            new_candiate_list = self._get_candiate_info_list(index, eojeol, eogan, eomi, last_eumjeol_eogan, mark, pos_filter )
             if len(new_candiate_list) > 0 : 
                 candiate_list.extend(new_candiate_list)
             
@@ -370,10 +370,7 @@ class PosE(PosBase):
             ## 있는 형태소가 EF 뿐인데 _EF_EXPAND_TO_EC 가 켜져 있다면 저장한 EC 리스트를 추가한다. 
             if self._EF_EXPAND_TO_EC and len(ef_list) and len(ec_list) == 0:
                 candiate_list.extend(ef_list)
-                
         
-        # MARK: _get_candiate_info_list
-        # FIXME:  동일 형태소에 candiate_list 에 추가하는 문제 수정 필요
         return candiate_list 
 
     def _find_exception_case(self, index, eojeol, candidate_eogan, candidate_eomi, pos_filter):
@@ -818,7 +815,6 @@ class PosE(PosBase):
         
         if candidate_eogan == "":
             return eogan_eomi_list
-            
             
         eumjeol_int = ord(candidate_eogan[0])
         if self._HANGUL_CODE_START > eumjeol_int or self._HANGUL_CODE_END < eumjeol_int:
