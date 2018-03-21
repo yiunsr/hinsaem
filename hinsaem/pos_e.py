@@ -40,6 +40,10 @@ class PosE(PosBase):
     # 종결어미로 취급한다. 
     _EC_EXPAND_TO_EF = True
     
+    ## 사전에 연결어미는 없지만 종결어미가 있는 경우 해당 어리를
+    ## 연결 어미로 취급한다.
+    _EF_EXPAND_TO_EC = True
+    
     _HANGUL_CODE_START = 44032
     _HANGUL_CODE_END = 55199
 
@@ -320,7 +324,7 @@ class PosE(PosBase):
     def _get_candiate_info_list(self, index, eojeol, candidate_eogan, candidate_eomi, last_eumjeol_eogan, mark, pos_filter):
         """
         전달된 어간후보, 어미후가가 적당한 후보가 맞는지 확인 하고 맞으면 
-        candidate_info 를 리턴한다. 
+        candiate_info_list 를 리턴한다. 
 
         Args :
             index(int) : 어절의 어간과 어미를 분리하는 index 
@@ -337,6 +341,7 @@ class PosE(PosBase):
         """
         candiate_list = []
         ec_list = []
+        ef_list = []
         
         if candidate_eomi in self._eomi_list:
             for posinfo in self._eomi_list[candidate_eomi]:
@@ -348,13 +353,24 @@ class PosE(PosBase):
                             postag_tuple2 = ((postag_tuple[-1][0], "EF"),) 
                             posinfo2 = { "pos" : "EF", "pos2" : "" , "phoneme" : posinfo["phoneme"] }
                             ec_list.append( [candidate_eogan, postag_tuple2, mark, posinfo2] )
+                            
+                        if postag_tuple[-1][1] == "EF" and "EC" in pos_filter : ## EC가 필요한데 현재 EF가 사전리스트에 있으면 리스트에 저장해 둔다.
+                            postag_tuple2 = ((postag_tuple[-1][0], "EC"),) 
+                            posinfo2 = { "pos" : "EC", "pos2" : "" , "phoneme" : posinfo["phoneme"] }
+                            ef_list.append( [candidate_eogan, postag_tuple2, mark, posinfo2] )
                         continue
+                    
                     candiate_info = [candidate_eogan, postag_tuple, mark, posinfo]
                     candiate_list.append(candiate_info)
                     
             ## 있는 형태소가 EC 뿐인데 _EC_EXPAND_TO_EF 가 켜져 있다면 저장한 EC 리스트를 추가한다. 
-            if self._EC_EXPAND_TO_EF and len(ec_list):
+            if self._EC_EXPAND_TO_EF and len(ec_list) and len(ef_list) == 0:
                 candiate_list.extend(ec_list)
+            
+            ## 있는 형태소가 EF 뿐인데 _EF_EXPAND_TO_EC 가 켜져 있다면 저장한 EC 리스트를 추가한다. 
+            if self._EF_EXPAND_TO_EC and len(ef_list) and len(ec_list) == 0:
+                candiate_list.extend(ef_list)
+                
         
         # MARK: _get_candiate_info_list
         # FIXME:  동일 형태소에 candiate_list 에 추가하는 문제 수정 필요
@@ -601,12 +617,12 @@ class PosE(PosBase):
                 [eogan_cho, eogan_jung] in [[u"ㄹ", u"ㅏ"], [u"ㄹ", u"ㅓ"]]):
             eogan = candidate_eogan[:-3] + change_jaso(candidate_eogan[-2], None, None, "") + u"르"
             eomi = change_jaso(last_eumjeol_eogan, u"ㅇ", None, None) + candidate_eomi
-            eogan_eomi_list.append([index, eojeol, eogan, eomi, eogan[-1], self.Eojel_Type.IRR_LEU])
+            eogan_eomi_list.append([index, eojeol, eogan, eomi, candidate_eogan[-1], self.Eojel_Type.IRR_LEU])
 
         # "오" 불규칙 : 어미 '-아라/어라'가 어간 뒤에서 '오'로 바뀌는 활용
         # 다오 => 달/VV+아라/EF 가 유일하다.
         if candidate_eogan == u"다" and candidate_eomi == u"오":
-            eogan_eomi_list.append([index, eojeol, u"달", u"아라", eogan[-1], self.Eojel_Type.IRR_O])
+            eogan_eomi_list.append([index, eojeol, u"달", u"아라", u"다", self.Eojel_Type.IRR_O])
 
         return eogan_eomi_list
 
@@ -755,7 +771,7 @@ class PosE(PosBase):
             eogan_eomi_list.append([index, eojeol, eogan, eomi, eogan[-1], self.Eojel_Type.ABB_JANH])
 
         # pos_filter가 선어말어미가 아니어야 한다. 
-        if eogan_jung == u"ㅏ" and eogan_jong == "" and candidate_eomi == "" and "EP" not in pos_filter:
+        if eogan_jung == u"ㅏ" and eogan_jong == "" and "EP" not in pos_filter:
             """ 동음탈락 "아"
             한글맞춤법 제 34항
             ㅏ계열 가=>가아, 자=>자아, 차->차아, 타->타아
@@ -764,7 +780,7 @@ class PosE(PosBase):
             eomi = u"아" + candidate_eomi
             eogan_eomi_list.append([index, eojeol, eogan, eomi, eogan[-1], self.Eojel_Type.DROPOUT_A])
 
-        elif last_eumjeol_eogan in self._LAST_EUMJEOL_DROPOUT_EO and candidate_eomi == "" and "EP" not in pos_filter:
+        elif last_eumjeol_eogan in self._LAST_EUMJEOL_DROPOUT_EO and "EP" not in pos_filter:
             """ 동음탈락 "어"
             한글맞춤법 제 34항과 붙임 1
             ㅓ계열  건너=>건너어, 서=>서어 , 갈라서=>갈라서

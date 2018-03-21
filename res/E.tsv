@@ -963,6 +963,7 @@ word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
 십시다	EF		VO|LQ	합쇼체			으십시다/EF		
 십시오	EF		VO|LQ	합쇼체			으십시오/EF		
 ㅆ	EP		VO				았/EP		
+ㅆ었	EP		VO				었었/EP		
 아	EC		YANG1						
 아	EC		YANG1						
 아	EC		YANG1						
@@ -1005,9 +1006,9 @@ word	pos	pos2	phoneme	politeness	tense	tag	alt	alt2	restriction
 야	X		NUL						
 야만	EC		NUL				아야만/EC		
 야지	EF		NUL						
-어	EC		EUM1				아/EC		
-어	EC		EUM1				아/EC		
-어	EC		EUM1				아/EC		
+어	EC		EUM1|FS				아/EC		
+어	EC		EUM1|FS				아/EC		
+어	EC		EUM1|FS				아/EC		
 어	EF		EUM1	해체			아/EC		
 어근	EC		NUL			방언	아서/EC		
 어근에	EC		NUL			방언	아서/EC		

@@ -290,6 +290,10 @@ def test_0009_e():
     pos_list = pos_E.endswithE(u"몰랐어")
     assert postag_left_check(pos_list, u"모르"), u"모르 in eojeol"
     assert postag_end_check(pos_list, u"았/EP+어/EC"), u"았/EP+어/EC in eojeol"
+    
+    pos_list = pos_E.endswithE(u"굴렀다")
+    assert postag_left_check(pos_list, u"구르"), u"구르 in eojeol"
+    assert postag_end_check(pos_list, u"었/EP+다/EC"), u"었/EP+다/EC in eojeol"
 
     #### "오"불규칙
     pos_list = pos_E.endswithE(u"다오")

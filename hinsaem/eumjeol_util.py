@@ -111,6 +111,11 @@ def has_jongsung(eumjeol):
     return JONGSUNG_TYPE_COMMON
 
 def check_phoneme_restriction(eumjeol, phoneme):
+    ## 예외사항으로 음절이 None일 경우 True이다. 
+    if eumjeol == None:
+        return True
+    
+    
     [_, jung, jong] = parse_eumjeol(eumjeol)
     """
     L    ㄹ받침
