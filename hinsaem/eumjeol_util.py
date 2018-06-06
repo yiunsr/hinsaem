@@ -1,11 +1,9 @@
-from __future__ import print_function
-#-*- coding: utf-8 -*-
 """
 .. automodule:: eumjeol_util
 
 이 모듈은 Krcorpus에서 음절관련 기능을  담당하는 부분이다.
 음절은 한국어에서 한글자를 의미하는 것으로 음절을 음소로 분해하거나
-음소를 다시 음절을 합치는 등의 유틸리티 기능이 있다. 
+음소를 다시 음절을 합치는 등의 유틸리티 기능이 있다.
 
 """
 import traceback
@@ -35,6 +33,7 @@ _JONGSUNG_LIST = [u'', u'ㄱ', u'ㄲ', u'ㄳ', u'ㄴ', u'ㄵ', u'ㄶ', u'ㄷ', u
 #: 양성모음
 YANG_VOWEL = [u"ㅏ", u"ㅑ", u"ㅗ", u"ㅛ"]
 
+
 def parse_eumjeol(eumjeol):
     """음절을 자소로 분리함
 
@@ -60,6 +59,7 @@ def parse_eumjeol(eumjeol):
     jong = temp % _JONGSUNG
     return [_CHOSUNG_LIST[cho], _JUNGSUNG_LIST[jung], _JONGSUNG_LIST[jong]]
 
+
 def change_jaso(eumjeol, cho, jung, jong):
     """음절의 초성, 중성, 종성을 변경함.
 
@@ -75,11 +75,11 @@ def change_jaso(eumjeol, cho, jung, jong):
             change_jaso("간", None, None, "") => "가"
     """
     (org_cho, org_jung, org_jong) = parse_eumjeol(eumjeol)
-    if cho != None:
+    if cho is not None:
         org_cho = cho
-    if jung != None:
+    if jung is not None:
         org_jung = jung
-    if jong != None:
+    if jong is not None:
         org_jong = jong
     return build_eumjeol(org_cho, org_jung, org_jong)
 
@@ -104,18 +104,18 @@ def get_jongsung_type(eumjeol):
         return JONGSUNG_TYPE_LIEUL
     return JONGSUNG_TYPE_COMMON
 
+
 def has_jongsung(eumjeol):
     jong = (parse_eumjeol(eumjeol))[2]
     if jong == "":
         return False
     return JONGSUNG_TYPE_COMMON
 
+
 def check_phoneme_restriction(eumjeol, phoneme):
-    ## 예외사항으로 음절이 None일 경우 True이다. 
-    if eumjeol == None:
+    # # 예외사항으로 음절이 None일 경우 True이다.
+    if eumjeol is None:
         return True
-    
-    
     [_, jung, jong] = parse_eumjeol(eumjeol)
     """
     L    ㄹ받침
@@ -128,36 +128,39 @@ def check_phoneme_restriction(eumjeol, phoneme):
     YANG2    모음이 ㅏ,ㅑ,ㅗ
     EUM1    모음이 ㅏ,ㅗ 제외
     """
-    
-    #yangsung = jung in [u"ㅏ", u"ㅑ", u"ㅗ", u"ㅛ"] # pt 기준에 대한 양성모음
-    # 표준국어대사전 기준 양성모음 ㅏ,ㅗ,ㅑ,ㅛ,ㅘ,ㅚ,ㅐ 이나 
-    # ㅐ로 종결하는 용언  개어(개/VV+어/EC), 내어 처럼 음성모음과 어울리므로 뺀다. 
+
+    # yangsung = jung in [u"ㅏ", u"ㅑ", u"ㅗ", u"ㅛ"] # pt 기준에 대한 양성모음
+    # 표준국어대사전 기준 양성모음 ㅏ,ㅗ,ㅑ,ㅛ,ㅘ,ㅚ,ㅐ 이나
+    # ㅐ로 종결하는 용언  개어(개/VV+어/EC), 내어 처럼 음성모음과 어울리므로 뺀다.
     # 과(고/VV+아/EC), 봐(보/VV+아/EC)  같은 경우 활용된 형태는 과, 봐 이고 아/EC 와 어울리므로 추가하는게 맞다.
     # ㅚ 의 경우 아직 알 수 없음
-    
+
     yang1 = jung in [u'ㅏ', u'ㅗ']
     yang2 = jung in [u'ㅏ', u'ㅑ', u'ㅗ']
     if phoneme == "NUL":
         return True
-    elif jong == "" and "VO" in phoneme:  ## 모음제약
+    elif jong == "" and "VO" in phoneme:  # 모음제약
         return True
     elif jong == u"ㄹ" and "LQ" in phoneme:  # 유음(ㄹ)제약
         return True
     elif jong not in ["", u"ㄹ"] and "FS" in phoneme:
         return True
-    elif yang1 and "YANG1" in phoneme: # 양성모음1체크
+    elif yang1 and "YANG1" in phoneme:  # 양성모음1체크
         return True
-    elif yang2 and "YANG2" in phoneme: # 양성모음2체크
+    elif yang2 and "YANG2" in phoneme:  # 양성모음2체크
         return True
-    elif not yang1 and "EUM1" in phoneme: # 음성모음체크
+    elif not yang1 and "EUM1" in phoneme:   # 음성모음체크
         return True
     return False
 
+
 def build_eumjeol(cho, jung, jong):
-    eumjeol = _HANGUL_CODE_START + _CHOSUNG_LIST.index(cho) * _JUNGSUNG  * _JONGSUNG
+    eumjeol = _HANGUL_CODE_START +\
+        _CHOSUNG_LIST.index(cho) * _JUNGSUNG * _JONGSUNG
     eumjeol += _JUNGSUNG_LIST.index(jung) * _JONGSUNG
     eumjeol += _JONGSUNG_LIST.index(jong)
     return chr(eumjeol)
+
 
 if __name__ == "__main__":
     try:
@@ -166,4 +169,3 @@ if __name__ == "__main__":
     except Exception:
         tb = traceback.format_exc()
         print(tb)
-

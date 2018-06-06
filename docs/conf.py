@@ -20,7 +20,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-#sys.path.append(os.path.abspath('./hinsaem'))
+# sys.path.append(os.path.abspath('./hinsaem'))
 sys.path.append(os.path.join(os.path.dirname(__name__), '..'))
 
 
@@ -34,9 +34,9 @@ sys.path.append(os.path.join(os.path.dirname(__name__), '..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.viewcode']
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.todo',
+              'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -169,9 +169,6 @@ texinfo_documents = [
      author, 'hansaem', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}

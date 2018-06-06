@@ -1,11 +1,16 @@
 eclipse.preferences.version=1
+encoding//base/__init__.py=utf-8
 encoding//base/config.py=utf-8
 encoding//docs/conf.py=utf-8
+encoding//hinsaem/__init__.py=utf-8
+encoding//hinsaem/config.py=utf-8
+encoding//hinsaem/eomi.py=utf-8
 encoding//hinsaem/eumjeol_util.py=utf-8
 encoding//hinsaem/main.py=utf-8
 encoding//hinsaem/pos_base.py=utf-8
 encoding//hinsaem/pos_e.py=utf-8
 encoding//hinsaem/pos_j.py=utf-8
+encoding//hinsaem/pos_n.py=utf-8
 encoding//hinsaem/pos_n0.py=utf-8
 encoding//hinsaem/pos_nr.py=utf-8
 encoding//hinsaem/pos_util.py=utf-8
